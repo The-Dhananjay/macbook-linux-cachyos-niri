@@ -1,28 +1,35 @@
-# Mac-inspired CachyOS + Niri
+# Mac-inspired Linux setup for Niri
 
-A private, reversible plan for the user's CachyOS + Niri setup. This is Linux theming and workflow work, not macOS; it does not replace Niri with KDE.
+Private, reversible plan for a macOS-inspired Linux desktop. CachyOS + Niri is the reference; the implementation prompt detects common distributions and adapts when possible. It does not promise every feature works on every Linux machine.
 
-## Start here
+## Clone and run once
 
-1. Read [IMPLEMENT_WITH_AI.md](IMPLEMENT_WITH_AI.md) for the one-shot implementation prompt.
-2. Read [docs/implementation-inventory.md](docs/implementation-inventory.md) for the full requested feature list, historical evidence, known issues and platform limits.
-3. The implementer must inspect the live machine, confirm scope, back up exact files, make reversible changes, verify each feature, and update the evidence. Do not assume prior chat reports are current state.
+This repository is private. On the target machine, authenticate to GitHub using your normal secure method first (GitHub CLI or SSH key). Then run:
 
-## Feature scope
+    gh auth login
+    gh repo clone The-Dhananjay/macbook-linux-cachyos-niri
+    cd macbook-linux-cachyos-niri
 
-- Niri/Noctalia macOS-inspired bar, Control Center, launcher, dock, notifications, app/window controls and focused-app title.
-- Secure PAM-backed moving lock screen, profile picture, fingerprint status, file preview, trackpad gestures, screenshot toolbar and Android/KDE Connect.
-- User-named voice/text assistant: Friday is optional; custom name or disabling it are valid. Local commands/AI, optional web search and external-output-only voice preference.
-- Safety, rollback, privacy and truthful implementation status.
+Open this folder in a coding agent with terminal and local desktop control. Paste the full prompt in IMPLEMENT_WITH_AI.md once. It asks what to name your assistant (Friday, a custom name, or none), then proceeds with all supported setup items. Read docs/implementation-inventory.md for historical evidence and limitations.
+
+The prompt batches package installation and narrowly scopes system changes to reduce repeated OS authentication. It never asks for, saves or bypasses your password. Some distros may still show multiple native auth prompts; the OS controls this. A fresh machine needs GitHub access and an agent with local computer-control capability.
+
+## Scope
+
+- Niri/Noctalia mac-style bar, Control Center, launcher, dock, notifications, focused app title and window controls.
+- Secure PAM-backed video lock, fingerprint status, Nautilus preview, trackpad gestures, screenshot toolbar and Android KDE Connect.
+- Optional user-named voice/text assistant, safe desktop commands, local AI, optional web search and external-output-only speech.
+- Backups, rollback, validation and privacy guidance.
 
 ## Principles
 
-- Preserve Niri. Use signed packages and documented interfaces; avoid opaque root installers.
-- Back up before changes; keep each feature independently reversible.
-- Never send speech/model text to a shell. Use fixed, reviewed action IDs and confirmations for consequential actions.
-- Never commit credentials, voice recordings, personal photos, wallpaper/video, biometric templates, model weights or private machine identifiers.
-- State limits honestly: apps own their native titlebars/menus and Linux cannot be pixel-identical to macOS.
+- Preserve the current desktop and install Niri as an additional session if supported.
+- Use signed distribution packages and documented APIs. Immutable/declarative systems need native config.
+- Back up before edits. Keep changes reversible and test them.
+- Never pass speech/model output to a shell. Confirm consequential actions.
+- Keep credentials, voice clips, personal photos, wallpaper, biometrics and local models out of Git.
+- Linux can imitate macOS styling but cannot guarantee pixel identity or universal app titlebars/menus.
 
 ## License
 
-Documentation and original scripts are MIT unless a file says otherwise. Third-party assets and marks retain their owners' licenses. No Apple system assets are included.
+Documentation and original scripts are MIT unless otherwise stated. Third-party assets retain their owners' licenses; no Apple system assets are included.
