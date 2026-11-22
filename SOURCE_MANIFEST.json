@@ -1,0 +1,1706 @@
+{
+  "format": 1,
+  "archive_sha256": "9d5f0402894a38d42730917350049b6092e0f0ef7846e13e7b5f200d5242b985",
+  "files": {
+    "docs/architecture.md": {
+      "sha256": "dd5d72eee7ccee6dffa4626b91f0fb377d0431f4cbed619f54e30ea3d0b586f7",
+      "bytes": 2279
+    },
+    "docs/design-refinement.md": {
+      "sha256": "d83870970eac71ff65fa2419d9f5e1abf4b819cf5a3fba59123cb1ad2bcaa0f3",
+      "bytes": 7838
+    },
+    "docs/feature-spec.md": {
+      "sha256": "0e7a696023e531498795a79a5376c1168f90a12b389c652a73886b7a97046411",
+      "bytes": 7387
+    },
+    "docs/implementation-inventory.md": {
+      "sha256": "ffb5bf8598b0265ba15607b4d5faf3e6323570162eadf4f4c4b89247ca8e7e7b",
+      "bytes": 4307
+    },
+    "docs/module-map.md": {
+      "sha256": "b01b2fff6270b82005e29bbed2e2f811e93ef937352403c27de489902eb59877",
+      "bytes": 5328
+    },
+    "docs/safety-and-rollback.md": {
+      "sha256": "173f3dc3b67bf4f50f08f245cc2b9843db3b41238bbb1b952daf902564fc88e9",
+      "bytes": 2401
+    },
+    "docs/setup.md": {
+      "sha256": "570600c75c50763587b43d274239a40ff6ba9a8c1e841a5d03447e4dae754629",
+      "bytes": 5068
+    },
+    "docs/sources.md": {
+      "sha256": "3c51320712a2c35f335120f290bced7d9267ecee32fc8c837a4e78acfb72d01a",
+      "bytes": 1729
+    },
+    "docs/testing.md": {
+      "sha256": "d5e09481dad21c5109780a1cca1a59ce84ca1432a98c1103b55eca4d33475199",
+      "bytes": 2640
+    },
+    "profiles/mac-appearance": {
+      "sha256": "63aa706e5d236fab559bfa640794c9c49867291f7fe0bf7c20aa6232fd80f7d8",
+      "bytes": 4173
+    },
+    "profiles/mac-dock-size": {
+      "sha256": "747e9d0f239e41a16b87f6fc76372c0e53eb961e6e63b96c437fff0006ee8135",
+      "bytes": 1648
+    },
+    "profiles/mac-theme": {
+      "sha256": "e3f31a7cc6b06f8874f9da47d3da327b190a4e4f0210fee421db67945b56a69e",
+      "bytes": 1131
+    },
+    "profiles/shared/desktop_design.py": {
+      "sha256": "57b1e2ed71fdf40049c13ba22d4c8a72e324ff4a5182656bf0e06c2359a1d842",
+      "bytes": 5081
+    },
+    "profiles/zzz-design-refinement.toml": {
+      "sha256": "e93838a0da23109e63ee9c01d301c5e6b51de55b32dabe02e3c7ca9399a641b6",
+      "bytes": 1057
+    },
+    "templates/apps/friday/actions.py.in": {
+      "sha256": "1965d432bc661b9094b180b7f7eb8d27594155aa93dc2379ce006a1bb633d985",
+      "bytes": 4146
+    },
+    "templates/apps/friday/app_launch.py.in": {
+      "sha256": "212c7a863de6cc3a8a14573a77c3332eb00a252309435aebe1d62db6b932ee70",
+      "bytes": 3185
+    },
+    "templates/apps/friday/assistant_actions.py.in": {
+      "sha256": "36d88cc0f3c9e7553dd72c1fb12397f3e2f9b339644e7bc5336bc045375a4257",
+      "bytes": 4732
+    },
+    "templates/apps/friday/audio_actions.py.in": {
+      "sha256": "d33f6ac8a7db6c36873d51426edb3b6f630b1aa517c2a97fb117d2ca9a4dba49",
+      "bytes": 1149
+    },
+    "templates/apps/friday/brain.py.in": {
+      "sha256": "d4685796d12956b36aaad9bc2dcac2a3411061937d7d604c8745267e67163f48",
+      "bytes": 3803
+    },
+    "templates/apps/friday/cancel_listener.py.in": {
+      "sha256": "27a145bf46c52abc24228aa6795829677e4e77befc1136a59652899e78dca7b3",
+      "bytes": 1352
+    },
+    "templates/apps/friday/commands.py.in": {
+      "sha256": "81971f1eca0a037976fad1e5557a5236d996332385b168efe93f5b385b5ead4c",
+      "bytes": 7862
+    },
+    "templates/apps/friday/control_phrases.py.in": {
+      "sha256": "6c94dc4fc804f37028148356f61e1e870234601282e42d9fccd3afc6521f13ee",
+      "bytes": 454
+    },
+    "templates/apps/friday/conversation.py.in": {
+      "sha256": "29f8eaca9285c1a422b5ac9c360e7b4a48fba2e9e480389e51a7749cae8a164a",
+      "bytes": 1440
+    },
+    "templates/apps/friday/desktop_apps.py.in": {
+      "sha256": "11c37108dafd89afc9af74e14e9a91a7c5c96adc7517a8ddf2992ae968f9a573",
+      "bytes": 1050
+    },
+    "templates/apps/friday/device_actions.py.in": {
+      "sha256": "c52c6c24ae26ed9f73966590367e113c0160fdf50347f7a222d00133b66b0db0",
+      "bytes": 2179
+    },
+    "templates/apps/friday/endpoint.py.in": {
+      "sha256": "84aaca7e70a549d24debe40c092ca7699e0f2eed00a02e319215fe99d9d2b5b7",
+      "bytes": 691
+    },
+    "templates/apps/friday/engine.py.in": {
+      "sha256": "7afd9271a522f73b0bb969f73644d8338cbce7e485c35de17f8e6ac475fdbcaf",
+      "bytes": 1197
+    },
+    "templates/apps/friday/friday.py.in": {
+      "sha256": "3a0e87dc9ff83f4c93c6d83a76c54aca786eb97826749d98e723e0109456d957",
+      "bytes": 28827
+    },
+    "templates/apps/friday/microphone.py.in": {
+      "sha256": "6263711fc12eb93baf440e495784bede917ac6a23202ca18623ae5f7097294d8",
+      "bytes": 705
+    },
+    "templates/apps/friday/output_route.py.in": {
+      "sha256": "0c16c9125be7f3b948722f2920d8f4cc5a4afa7676bcfd0dac7effec8a101e31",
+      "bytes": 1247
+    },
+    "templates/apps/friday/request_tools.py.in": {
+      "sha256": "93baa17fb37c55f5bafc37e2dc1fc69c2e8a4f180170eb0027193420f02f3073",
+      "bytes": 7349
+    },
+    "templates/apps/friday/route_monitor.py.in": {
+      "sha256": "7397a9df650e7b865fb50c72fc1aa7b7f6ac09d0498267ff6bb21594c8793e7f",
+      "bytes": 627
+    },
+    "templates/apps/friday/semantic_router.py.in": {
+      "sha256": "a67e0fedbffcbc7e566afe3727795a771ac0a43071021fd778fa5894e683c282",
+      "bytes": 3803
+    },
+    "templates/apps/friday/speech_quality.py.in": {
+      "sha256": "fcfdef924be5555baab093d5806de570d6b3d442abc01cf9ef811764bd2ce646",
+      "bytes": 937
+    },
+    "templates/apps/friday/stream_commands.py.in": {
+      "sha256": "9d14e10bcae52b9f0c21cb880b2e2841760f03294ab9108cde8ded27837e1713",
+      "bytes": 2085
+    },
+    "templates/apps/friday/tts.py.in": {
+      "sha256": "516ad74d60f4bb1f00bfe9baf6d5e33dd34631f8508af1f6bd6d7a1d70acf315",
+      "bytes": 605
+    },
+    "templates/apps/friday/voice_activity.py.in": {
+      "sha256": "2079e54c488806a5aef4664bfd1b791ced94131174a261fa35a65a8592cdacfa",
+      "bytes": 1147
+    },
+    "templates/apps/friday/wake.py.in": {
+      "sha256": "032f9de0d786855ad0032b384224fe3ae04d6023588d0e99290db3c9b920fb8f",
+      "bytes": 5594
+    },
+    "templates/apps/mac-capture/capture.py.in": {
+      "sha256": "475a5fd408310b108e3a5ef92038cafa4c5faa5cfdbcb00d94f097bd7d61a986",
+      "bytes": 11864
+    },
+    "templates/apps/mac-capture/icons/close-light.svg": {
+      "sha256": "1d2992ef2383763e63b9183288583e27882edc0c3694bcc31482396369556273",
+      "bytes": 251
+    },
+    "templates/apps/mac-capture/icons/close.svg": {
+      "sha256": "baf67e7191d88466dbafc447df26df0a362228738636518802597aa57b77101a",
+      "bytes": 251
+    },
+    "templates/apps/mac-capture/icons/record-screen-light.svg": {
+      "sha256": "d6c92ba336bae211165bb675d724278d30d81638f9e661e432d67c94a20ba772",
+      "bytes": 360
+    },
+    "templates/apps/mac-capture/icons/record-screen.svg": {
+      "sha256": "cd7c858cb0e576402dc5c5ca8ebd98f01a6dae6f867a993d88f6c9f523ba2fd7",
+      "bytes": 357
+    },
+    "templates/apps/mac-capture/icons/record-window-light.svg": {
+      "sha256": "f6b2dc30fd8f4e04e6fbcc40efec548a1784719546fb28a15e5fc2cdb8a411a1",
+      "bytes": 353
+    },
+    "templates/apps/mac-capture/icons/record-window.svg": {
+      "sha256": "18f0cf1717f0d5234dbe9f1b1698f6ad24206c0f04e6faf3f78ce837b8719adc",
+      "bytes": 350
+    },
+    "templates/apps/mac-capture/icons/region-light.svg": {
+      "sha256": "56a9fb6b1b6a7bbecae4ccf40e558923842dd20d6de5d8a1098e57126296e58d",
+      "bytes": 263
+    },
+    "templates/apps/mac-capture/icons/region.svg": {
+      "sha256": "0556b2ded36081305dddcb05ac5ba0ebd366f33ab70823015c8c00448749ddda",
+      "bytes": 263
+    },
+    "templates/apps/mac-capture/icons/screen-light.svg": {
+      "sha256": "bf90316ead310416cb78baa5820bcd28b9ba17d0680a81de83113d4b33e25d38",
+      "bytes": 266
+    },
+    "templates/apps/mac-capture/icons/screen.svg": {
+      "sha256": "1eab543dffde412ef56e932ecd20485e04b4b05870532da95a15ef44da3f7270",
+      "bytes": 266
+    },
+    "templates/apps/mac-capture/icons/window-light.svg": {
+      "sha256": "30cf842cd2b722c26172585d2643b8e7e2e0a6652cc8efcb533ec563db3e1fe0",
+      "bytes": 275
+    },
+    "templates/apps/mac-capture/icons/window.svg": {
+      "sha256": "be89361c0a41fef27170963c83298996bdfc34630702cf831f9c4fb6d3dc684d",
+      "bytes": 275
+    },
+    "templates/apps/mac-capture/image.py.in": {
+      "sha256": "89745203673723fa8d2d4616da4d223bf9d247145e6e82899989044b7010a34a",
+      "bytes": 1542
+    },
+    "templates/apps/mac-capture/portal.py.in": {
+      "sha256": "545e1896d8d0b5cb3460f98303c131651849bc95dab5b139c28a4bf2ca706791",
+      "bytes": 5136
+    },
+    "templates/apps/mac-control-center/connectivity.py.in": {
+      "sha256": "63f0b107c09be091520b8d4cac29b8e22ce3ddde60cbc2fa97a03fbc28d42534",
+      "bytes": 10469
+    },
+    "templates/apps/mac-control-center/icons/audio-card-symbolic-blue-outline-light.svg": {
+      "sha256": "cb547bdad61c942c95632cc438b6c000402aa8fc0d29e1174fc10ba7e5b76e19",
+      "bytes": 413
+    },
+    "templates/apps/mac-control-center/icons/audio-card-symbolic-blue-outline.svg": {
+      "sha256": "cb547bdad61c942c95632cc438b6c000402aa8fc0d29e1174fc10ba7e5b76e19",
+      "bytes": 413
+    },
+    "templates/apps/mac-control-center/icons/audio-card-symbolic-light.svg": {
+      "sha256": "322158794d4c6b053d83f0e93ea941bd3f8be001e136b032bf7c090e9b03dea8",
+      "bytes": 413
+    },
+    "templates/apps/mac-control-center/icons/audio-card-symbolic-outline-light.svg": {
+      "sha256": "322158794d4c6b053d83f0e93ea941bd3f8be001e136b032bf7c090e9b03dea8",
+      "bytes": 413
+    },
+    "templates/apps/mac-control-center/icons/audio-card-symbolic-outline.svg": {
+      "sha256": "a0037f8fbf496793a98bb12ffc91a0e3ae7d24dda1a19da42556cbef40881ac0",
+      "bytes": 401
+    },
+    "templates/apps/mac-control-center/icons/audio-card-symbolic.svg": {
+      "sha256": "a0037f8fbf496793a98bb12ffc91a0e3ae7d24dda1a19da42556cbef40881ac0",
+      "bytes": 401
+    },
+    "templates/apps/mac-control-center/icons/audio-headphones-symbolic-blue-outline-light.svg": {
+      "sha256": "121cfb60f5e84365f630ee36f69d59d734e18310bd1c6c6e913b646ff9bed80a",
+      "bytes": 325
+    },
+    "templates/apps/mac-control-center/icons/audio-headphones-symbolic-blue-outline.svg": {
+      "sha256": "121cfb60f5e84365f630ee36f69d59d734e18310bd1c6c6e913b646ff9bed80a",
+      "bytes": 325
+    },
+    "templates/apps/mac-control-center/icons/audio-headphones-symbolic-light.svg": {
+      "sha256": "ecd76b9253c4cfa4bfc3d0856de5d927e3e7bc344140000ae7146a77009aa91c",
+      "bytes": 325
+    },
+    "templates/apps/mac-control-center/icons/audio-headphones-symbolic-outline-light.svg": {
+      "sha256": "ecd76b9253c4cfa4bfc3d0856de5d927e3e7bc344140000ae7146a77009aa91c",
+      "bytes": 325
+    },
+    "templates/apps/mac-control-center/icons/audio-headphones-symbolic-outline.svg": {
+      "sha256": "cc94a01af101007b3e8af6a6312c259f62b9e272c4beb79dc4747a06b46cc890",
+      "bytes": 322
+    },
+    "templates/apps/mac-control-center/icons/audio-headphones-symbolic.svg": {
+      "sha256": "cc94a01af101007b3e8af6a6312c259f62b9e272c4beb79dc4747a06b46cc890",
+      "bytes": 322
+    },
+    "templates/apps/mac-control-center/icons/audio-volume-high-symbolic-blue-outline-light.svg": {
+      "sha256": "6c4a89ac746924237adc65c26665f1db288549c056d58293797b9f88edffb7d4",
+      "bytes": 265
+    },
+    "templates/apps/mac-control-center/icons/audio-volume-high-symbolic-blue-outline.svg": {
+      "sha256": "6c4a89ac746924237adc65c26665f1db288549c056d58293797b9f88edffb7d4",
+      "bytes": 265
+    },
+    "templates/apps/mac-control-center/icons/audio-volume-high-symbolic-light.svg": {
+      "sha256": "546374f6c47bcd30bba575f093ee6b2683f26a7dd3ed65bac9c56d83245372b9",
+      "bytes": 265
+    },
+    "templates/apps/mac-control-center/icons/audio-volume-high-symbolic-outline-light.svg": {
+      "sha256": "546374f6c47bcd30bba575f093ee6b2683f26a7dd3ed65bac9c56d83245372b9",
+      "bytes": 265
+    },
+    "templates/apps/mac-control-center/icons/audio-volume-high-symbolic-outline.svg": {
+      "sha256": "937a147d3d64ab340acd969ad2782d7c6eaab3dcee7a4a3d05f03b0b37105952",
+      "bytes": 262
+    },
+    "templates/apps/mac-control-center/icons/audio-volume-high-symbolic.svg": {
+      "sha256": "937a147d3d64ab340acd969ad2782d7c6eaab3dcee7a4a3d05f03b0b37105952",
+      "bytes": 262
+    },
+    "templates/apps/mac-control-center/icons/bluetooth-active-symbolic-blue-outline-light.svg": {
+      "sha256": "bafba66b2f1ca46a23edecf0cbc32e369ac07d2e71460d7f91b1ccd789f06ed5",
+      "bytes": 228
+    },
+    "templates/apps/mac-control-center/icons/bluetooth-active-symbolic-blue-outline.svg": {
+      "sha256": "bafba66b2f1ca46a23edecf0cbc32e369ac07d2e71460d7f91b1ccd789f06ed5",
+      "bytes": 228
+    },
+    "templates/apps/mac-control-center/icons/bluetooth-active-symbolic-light.svg": {
+      "sha256": "5df7d0ce40132a96a99b271f852607444baaae894841e56d12889844c64856d4",
+      "bytes": 228
+    },
+    "templates/apps/mac-control-center/icons/bluetooth-active-symbolic-outline-light.svg": {
+      "sha256": "5df7d0ce40132a96a99b271f852607444baaae894841e56d12889844c64856d4",
+      "bytes": 228
+    },
+    "templates/apps/mac-control-center/icons/bluetooth-active-symbolic-outline.svg": {
+      "sha256": "8f80794774997f757c41df9c88265ba28cf96a8c49357769106edba2bcd2491e",
+      "bytes": 225
+    },
+    "templates/apps/mac-control-center/icons/bluetooth-active-symbolic.svg": {
+      "sha256": "8f80794774997f757c41df9c88265ba28cf96a8c49357769106edba2bcd2491e",
+      "bytes": 225
+    },
+    "templates/apps/mac-control-center/icons/bluetooth-symbolic-blue-outline-light.svg": {
+      "sha256": "bafba66b2f1ca46a23edecf0cbc32e369ac07d2e71460d7f91b1ccd789f06ed5",
+      "bytes": 228
+    },
+    "templates/apps/mac-control-center/icons/bluetooth-symbolic-blue-outline.svg": {
+      "sha256": "bafba66b2f1ca46a23edecf0cbc32e369ac07d2e71460d7f91b1ccd789f06ed5",
+      "bytes": 228
+    },
+    "templates/apps/mac-control-center/icons/bluetooth-symbolic-light.svg": {
+      "sha256": "5df7d0ce40132a96a99b271f852607444baaae894841e56d12889844c64856d4",
+      "bytes": 228
+    },
+    "templates/apps/mac-control-center/icons/bluetooth-symbolic-outline-light.svg": {
+      "sha256": "5df7d0ce40132a96a99b271f852607444baaae894841e56d12889844c64856d4",
+      "bytes": 228
+    },
+    "templates/apps/mac-control-center/icons/bluetooth-symbolic-outline.svg": {
+      "sha256": "8f80794774997f757c41df9c88265ba28cf96a8c49357769106edba2bcd2491e",
+      "bytes": 225
+    },
+    "templates/apps/mac-control-center/icons/bluetooth-symbolic.svg": {
+      "sha256": "8f80794774997f757c41df9c88265ba28cf96a8c49357769106edba2bcd2491e",
+      "bytes": 225
+    },
+    "templates/apps/mac-control-center/icons/changes-prevent-symbolic-blue-outline-light.svg": {
+      "sha256": "9ae23bd46db6040f5bebae9dba8c053208144d664b2e38d9f7c4886f868475c1",
+      "bytes": 276
+    },
+    "templates/apps/mac-control-center/icons/changes-prevent-symbolic-blue-outline.svg": {
+      "sha256": "9ae23bd46db6040f5bebae9dba8c053208144d664b2e38d9f7c4886f868475c1",
+      "bytes": 276
+    },
+    "templates/apps/mac-control-center/icons/changes-prevent-symbolic-light.svg": {
+      "sha256": "279eb8677effc81ab9affeed9c92100b1c41aebaafb9f335a2d37f9a62e45d75",
+      "bytes": 276
+    },
+    "templates/apps/mac-control-center/icons/changes-prevent-symbolic-outline-light.svg": {
+      "sha256": "279eb8677effc81ab9affeed9c92100b1c41aebaafb9f335a2d37f9a62e45d75",
+      "bytes": 276
+    },
+    "templates/apps/mac-control-center/icons/changes-prevent-symbolic-outline.svg": {
+      "sha256": "44fdb72771bff1cb9e81f1f130f44b5d936a4ec397ec27d6ab2f59b6fefa6b02",
+      "bytes": 273
+    },
+    "templates/apps/mac-control-center/icons/changes-prevent-symbolic.svg": {
+      "sha256": "44fdb72771bff1cb9e81f1f130f44b5d936a4ec397ec27d6ab2f59b6fefa6b02",
+      "bytes": 273
+    },
+    "templates/apps/mac-control-center/icons/display-brightness-symbolic-blue-outline-light.svg": {
+      "sha256": "0885f8af9ffb33bc9de9ecf2488fcafd6b8beab4d99d3ca5df4e5f410ad55186",
+      "bytes": 330
+    },
+    "templates/apps/mac-control-center/icons/display-brightness-symbolic-blue-outline.svg": {
+      "sha256": "0885f8af9ffb33bc9de9ecf2488fcafd6b8beab4d99d3ca5df4e5f410ad55186",
+      "bytes": 330
+    },
+    "templates/apps/mac-control-center/icons/display-brightness-symbolic-light.svg": {
+      "sha256": "013a2f29350ce06b01b55a408d0bd78db3748bfb1704257d8709c0e1b96a4d2f",
+      "bytes": 330
+    },
+    "templates/apps/mac-control-center/icons/display-brightness-symbolic-outline-light.svg": {
+      "sha256": "013a2f29350ce06b01b55a408d0bd78db3748bfb1704257d8709c0e1b96a4d2f",
+      "bytes": 330
+    },
+    "templates/apps/mac-control-center/icons/display-brightness-symbolic-outline.svg": {
+      "sha256": "7fe3abcc79d80e37686bf9980210c0c8151d65d59462dc57071fb87e0763baa1",
+      "bytes": 327
+    },
+    "templates/apps/mac-control-center/icons/display-brightness-symbolic.svg": {
+      "sha256": "7fe3abcc79d80e37686bf9980210c0c8151d65d59462dc57071fb87e0763baa1",
+      "bytes": 327
+    },
+    "templates/apps/mac-control-center/icons/go-previous-symbolic-blue-outline-light.svg": {
+      "sha256": "9955f3c5a2fbfb12dfddebfc7abc426109081437a40fb6c57cda46eda45f4cd7",
+      "bytes": 217
+    },
+    "templates/apps/mac-control-center/icons/go-previous-symbolic-blue-outline.svg": {
+      "sha256": "9955f3c5a2fbfb12dfddebfc7abc426109081437a40fb6c57cda46eda45f4cd7",
+      "bytes": 217
+    },
+    "templates/apps/mac-control-center/icons/go-previous-symbolic-light.svg": {
+      "sha256": "31fb0a8c794918c6e4e20557aef1f31af0ee4d3f95fffd7a67fd288e4a651e0a",
+      "bytes": 217
+    },
+    "templates/apps/mac-control-center/icons/go-previous-symbolic-outline-light.svg": {
+      "sha256": "31fb0a8c794918c6e4e20557aef1f31af0ee4d3f95fffd7a67fd288e4a651e0a",
+      "bytes": 217
+    },
+    "templates/apps/mac-control-center/icons/go-previous-symbolic-outline.svg": {
+      "sha256": "e58aa262199256ff03b8f5aabdfe69b8bca8e099da900ed09737cc30e0a0a5d3",
+      "bytes": 214
+    },
+    "templates/apps/mac-control-center/icons/go-previous-symbolic.svg": {
+      "sha256": "e58aa262199256ff03b8f5aabdfe69b8bca8e099da900ed09737cc30e0a0a5d3",
+      "bytes": 214
+    },
+    "templates/apps/mac-control-center/icons/media-playback-pause-symbolic-blue-outline-light.svg": {
+      "sha256": "ef42182564b98978ee91c691ebd2f66b4b859631ca2970185874ad28f2ba23f8",
+      "bytes": 235
+    },
+    "templates/apps/mac-control-center/icons/media-playback-pause-symbolic-blue-outline.svg": {
+      "sha256": "ef42182564b98978ee91c691ebd2f66b4b859631ca2970185874ad28f2ba23f8",
+      "bytes": 235
+    },
+    "templates/apps/mac-control-center/icons/media-playback-pause-symbolic-light.svg": {
+      "sha256": "804b0fc856b19a5f60f76d6081f23969f10ff05a325dfd85ccd1ad93cad98de3",
+      "bytes": 235
+    },
+    "templates/apps/mac-control-center/icons/media-playback-pause-symbolic-outline-light.svg": {
+      "sha256": "804b0fc856b19a5f60f76d6081f23969f10ff05a325dfd85ccd1ad93cad98de3",
+      "bytes": 235
+    },
+    "templates/apps/mac-control-center/icons/media-playback-pause-symbolic-outline.svg": {
+      "sha256": "1562b2d2849b88284b199808f3f89c20e5c912c4cba6b523e73f08d4569c64f3",
+      "bytes": 232
+    },
+    "templates/apps/mac-control-center/icons/media-playback-pause-symbolic.svg": {
+      "sha256": "1562b2d2849b88284b199808f3f89c20e5c912c4cba6b523e73f08d4569c64f3",
+      "bytes": 232
+    },
+    "templates/apps/mac-control-center/icons/media-playback-start-symbolic-blue-outline-light.svg": {
+      "sha256": "04b5a967f5933ca9ef5fa8f8969ef255fe642b686eaa2c89e3a3f827d3666256",
+      "bytes": 247
+    },
+    "templates/apps/mac-control-center/icons/media-playback-start-symbolic-blue-outline.svg": {
+      "sha256": "04b5a967f5933ca9ef5fa8f8969ef255fe642b686eaa2c89e3a3f827d3666256",
+      "bytes": 247
+    },
+    "templates/apps/mac-control-center/icons/media-playback-start-symbolic-light.svg": {
+      "sha256": "9aca19b22f9489833f07d202f10be89aff54b7725f6d9e63d30ebc60e51898f6",
+      "bytes": 247
+    },
+    "templates/apps/mac-control-center/icons/media-playback-start-symbolic-outline-light.svg": {
+      "sha256": "9aca19b22f9489833f07d202f10be89aff54b7725f6d9e63d30ebc60e51898f6",
+      "bytes": 247
+    },
+    "templates/apps/mac-control-center/icons/media-playback-start-symbolic-outline.svg": {
+      "sha256": "4f946454e9fdf5dbcaf1b43299d9b20a99f759503a3a3e85188ab88c6e2e4929",
+      "bytes": 241
+    },
+    "templates/apps/mac-control-center/icons/media-playback-start-symbolic.svg": {
+      "sha256": "4f946454e9fdf5dbcaf1b43299d9b20a99f759503a3a3e85188ab88c6e2e4929",
+      "bytes": 241
+    },
+    "templates/apps/mac-control-center/icons/media-skip-backward-symbolic-blue-outline-light.svg": {
+      "sha256": "651e3622f9f275016c526a45c3473cbfc9c5aa3027f0486dbe392a202ff7effd",
+      "bytes": 286
+    },
+    "templates/apps/mac-control-center/icons/media-skip-backward-symbolic-blue-outline.svg": {
+      "sha256": "651e3622f9f275016c526a45c3473cbfc9c5aa3027f0486dbe392a202ff7effd",
+      "bytes": 286
+    },
+    "templates/apps/mac-control-center/icons/media-skip-backward-symbolic-light.svg": {
+      "sha256": "0a31f04e5650c3c3bd737a2f0536d81312a684a0dcabc8ca3828fd5cd2730a7a",
+      "bytes": 286
+    },
+    "templates/apps/mac-control-center/icons/media-skip-backward-symbolic-outline-light.svg": {
+      "sha256": "0a31f04e5650c3c3bd737a2f0536d81312a684a0dcabc8ca3828fd5cd2730a7a",
+      "bytes": 286
+    },
+    "templates/apps/mac-control-center/icons/media-skip-backward-symbolic-outline.svg": {
+      "sha256": "31980ffcc5e6862b5b984bb538f367c6c5ed5f1aa0ffd42e462d371a75b4dcd2",
+      "bytes": 280
+    },
+    "templates/apps/mac-control-center/icons/media-skip-backward-symbolic.svg": {
+      "sha256": "31980ffcc5e6862b5b984bb538f367c6c5ed5f1aa0ffd42e462d371a75b4dcd2",
+      "bytes": 280
+    },
+    "templates/apps/mac-control-center/icons/media-skip-forward-symbolic-blue-outline-light.svg": {
+      "sha256": "72e1f5820a54369b74de26ec0064f9687e1c1ac10110aa5f165cd619b39eb270",
+      "bytes": 286
+    },
+    "templates/apps/mac-control-center/icons/media-skip-forward-symbolic-blue-outline.svg": {
+      "sha256": "72e1f5820a54369b74de26ec0064f9687e1c1ac10110aa5f165cd619b39eb270",
+      "bytes": 286
+    },
+    "templates/apps/mac-control-center/icons/media-skip-forward-symbolic-light.svg": {
+      "sha256": "ecb9b936b46cf7e1c9148233346084ec653bc36401b26599719688fe3cad1cfb",
+      "bytes": 286
+    },
+    "templates/apps/mac-control-center/icons/media-skip-forward-symbolic-outline-light.svg": {
+      "sha256": "ecb9b936b46cf7e1c9148233346084ec653bc36401b26599719688fe3cad1cfb",
+      "bytes": 286
+    },
+    "templates/apps/mac-control-center/icons/media-skip-forward-symbolic-outline.svg": {
+      "sha256": "038bc7d23322af1c4856118df8c4a891ae578767d4558cc9f2de12eff8bba516",
+      "bytes": 280
+    },
+    "templates/apps/mac-control-center/icons/media-skip-forward-symbolic.svg": {
+      "sha256": "038bc7d23322af1c4856118df8c4a891ae578767d4558cc9f2de12eff8bba516",
+      "bytes": 280
+    },
+    "templates/apps/mac-control-center/icons/network-wireless-symbolic-blue-outline-light.svg": {
+      "sha256": "eadb79a5b062ae674fc61862f152bd5152923d56fd35ada2853829685a6d7b5f",
+      "bytes": 343
+    },
+    "templates/apps/mac-control-center/icons/network-wireless-symbolic-blue-outline.svg": {
+      "sha256": "eadb79a5b062ae674fc61862f152bd5152923d56fd35ada2853829685a6d7b5f",
+      "bytes": 343
+    },
+    "templates/apps/mac-control-center/icons/network-wireless-symbolic-light.svg": {
+      "sha256": "42b5edc52f1bb498e30e25b8284f5bc5cec61b4cb0751878bc22cfe523d21611",
+      "bytes": 343
+    },
+    "templates/apps/mac-control-center/icons/network-wireless-symbolic-outline-light.svg": {
+      "sha256": "42b5edc52f1bb498e30e25b8284f5bc5cec61b4cb0751878bc22cfe523d21611",
+      "bytes": 343
+    },
+    "templates/apps/mac-control-center/icons/network-wireless-symbolic-outline.svg": {
+      "sha256": "bf41d02f888116b9bfe214bd72b79bb609bcfc02d7af5b80de84c1c7c052276a",
+      "bytes": 337
+    },
+    "templates/apps/mac-control-center/icons/network-wireless-symbolic.svg": {
+      "sha256": "bf41d02f888116b9bfe214bd72b79bb609bcfc02d7af5b80de84c1c7c052276a",
+      "bytes": 337
+    },
+    "templates/apps/mac-control-center/icons/notifications-disabled-symbolic-blue-outline-light.svg": {
+      "sha256": "b7c84bc8ccaa54747499c3da578a41938af63263771d69f59eb7964ae4f27cd2",
+      "bytes": 252
+    },
+    "templates/apps/mac-control-center/icons/notifications-disabled-symbolic-blue-outline.svg": {
+      "sha256": "b7c84bc8ccaa54747499c3da578a41938af63263771d69f59eb7964ae4f27cd2",
+      "bytes": 252
+    },
+    "templates/apps/mac-control-center/icons/notifications-disabled-symbolic-light.svg": {
+      "sha256": "56df4d77baaf3b7fc708ceca6dd7788e0104cd9a0f25aa88b11b57237ef0efdf",
+      "bytes": 252
+    },
+    "templates/apps/mac-control-center/icons/notifications-disabled-symbolic-outline-light.svg": {
+      "sha256": "56df4d77baaf3b7fc708ceca6dd7788e0104cd9a0f25aa88b11b57237ef0efdf",
+      "bytes": 252
+    },
+    "templates/apps/mac-control-center/icons/notifications-disabled-symbolic-outline.svg": {
+      "sha256": "baa6ffc752c0811a400440f2737fea92de5c5536d8848b9b36a684b73f593619",
+      "bytes": 249
+    },
+    "templates/apps/mac-control-center/icons/notifications-disabled-symbolic.svg": {
+      "sha256": "baa6ffc752c0811a400440f2737fea92de5c5536d8848b9b36a684b73f593619",
+      "bytes": 249
+    },
+    "templates/apps/mac-control-center/icons/phone-symbolic-blue-outline-light.svg": {
+      "sha256": "0863fa496284c95051e17707b229ddd941f2fd4372ce506025a8ad610d09393a",
+      "bytes": 271
+    },
+    "templates/apps/mac-control-center/icons/phone-symbolic-blue-outline.svg": {
+      "sha256": "0863fa496284c95051e17707b229ddd941f2fd4372ce506025a8ad610d09393a",
+      "bytes": 271
+    },
+    "templates/apps/mac-control-center/icons/phone-symbolic-light.svg": {
+      "sha256": "9186e101a7a4ed25811dcb535dbdeaba503c17f45510b36d0f126b84e9e3d3cb",
+      "bytes": 271
+    },
+    "templates/apps/mac-control-center/icons/phone-symbolic-outline-light.svg": {
+      "sha256": "9186e101a7a4ed25811dcb535dbdeaba503c17f45510b36d0f126b84e9e3d3cb",
+      "bytes": 271
+    },
+    "templates/apps/mac-control-center/icons/phone-symbolic-outline.svg": {
+      "sha256": "cfed81ffdc772cdf7f378f3ae1bccaa0d1eafacad1923da0a80e31780c816b99",
+      "bytes": 268
+    },
+    "templates/apps/mac-control-center/icons/phone-symbolic.svg": {
+      "sha256": "cfed81ffdc772cdf7f378f3ae1bccaa0d1eafacad1923da0a80e31780c816b99",
+      "bytes": 268
+    },
+    "templates/apps/mac-control-center/icons/preferences-system-symbolic-blue-outline-light.svg": {
+      "sha256": "946e8482657c0f6409917693870c750b55f8a6d77cb685779344324052b97eb5",
+      "bytes": 411
+    },
+    "templates/apps/mac-control-center/icons/preferences-system-symbolic-blue-outline.svg": {
+      "sha256": "946e8482657c0f6409917693870c750b55f8a6d77cb685779344324052b97eb5",
+      "bytes": 411
+    },
+    "templates/apps/mac-control-center/icons/preferences-system-symbolic-light.svg": {
+      "sha256": "b681b944efbe658f099c20aa6efd1980a2f800bea6c3dad9595ad9cc8f040f83",
+      "bytes": 411
+    },
+    "templates/apps/mac-control-center/icons/preferences-system-symbolic-outline-light.svg": {
+      "sha256": "b681b944efbe658f099c20aa6efd1980a2f800bea6c3dad9595ad9cc8f040f83",
+      "bytes": 411
+    },
+    "templates/apps/mac-control-center/icons/preferences-system-symbolic-outline.svg": {
+      "sha256": "685c992c0b1a203b64a58d4926abc66c614eef8fe3763f9c7e8025d06de2372f",
+      "bytes": 408
+    },
+    "templates/apps/mac-control-center/icons/preferences-system-symbolic.svg": {
+      "sha256": "685c992c0b1a203b64a58d4926abc66c614eef8fe3763f9c7e8025d06de2372f",
+      "bytes": 408
+    },
+    "templates/apps/mac-control-center/icons/seek-backward-outline-light.svg": {
+      "sha256": "09ccb1d9f165dbb0b7612798eeca2dcc755c35e7ba5d4a26a808dc3ae741a6fc",
+      "bytes": 341
+    },
+    "templates/apps/mac-control-center/icons/seek-backward-outline.svg": {
+      "sha256": "e7c873769069fcad21c105981fdea5ad1bcf924813dff73459d4dcf51157053b",
+      "bytes": 335
+    },
+    "templates/apps/mac-control-center/icons/seek-forward-outline-light.svg": {
+      "sha256": "6a419092403fa2494b7459b56e061c7a3f128559a7ca09e98816863316df19b9",
+      "bytes": 343
+    },
+    "templates/apps/mac-control-center/icons/seek-forward-outline.svg": {
+      "sha256": "397f88eb51cb3a312f73cc0cfbed866e472881c99e2ab8aee6a73253726bc972",
+      "bytes": 337
+    },
+    "templates/apps/mac-control-center/icons/video-display-symbolic-blue-outline-light.svg": {
+      "sha256": "e0f1f2995814372e38c896607ba3c4ae5bb7bb9ba919acdeecf8c114f8d5ddf2",
+      "bytes": 266
+    },
+    "templates/apps/mac-control-center/icons/video-display-symbolic-blue-outline.svg": {
+      "sha256": "e0f1f2995814372e38c896607ba3c4ae5bb7bb9ba919acdeecf8c114f8d5ddf2",
+      "bytes": 266
+    },
+    "templates/apps/mac-control-center/icons/video-display-symbolic-light.svg": {
+      "sha256": "eda0a42dd365a96fc2a2168044a50172e7e35fe12958822f55fdc66b61aa4dec",
+      "bytes": 266
+    },
+    "templates/apps/mac-control-center/icons/video-display-symbolic-outline-light.svg": {
+      "sha256": "eda0a42dd365a96fc2a2168044a50172e7e35fe12958822f55fdc66b61aa4dec",
+      "bytes": 266
+    },
+    "templates/apps/mac-control-center/icons/video-display-symbolic-outline.svg": {
+      "sha256": "26367d582f926527b5c32e727e2fe5e40b1c942d7a43d8100fc6e77f08eef65b",
+      "bytes": 263
+    },
+    "templates/apps/mac-control-center/icons/video-display-symbolic.svg": {
+      "sha256": "26367d582f926527b5c32e727e2fe5e40b1c942d7a43d8100fc6e77f08eef65b",
+      "bytes": 263
+    },
+    "templates/apps/mac-control-center/icons/weather-clear-night-symbolic-blue-outline-light.svg": {
+      "sha256": "b7c84bc8ccaa54747499c3da578a41938af63263771d69f59eb7964ae4f27cd2",
+      "bytes": 252
+    },
+    "templates/apps/mac-control-center/icons/weather-clear-night-symbolic-blue-outline.svg": {
+      "sha256": "b7c84bc8ccaa54747499c3da578a41938af63263771d69f59eb7964ae4f27cd2",
+      "bytes": 252
+    },
+    "templates/apps/mac-control-center/icons/weather-clear-night-symbolic-light.svg": {
+      "sha256": "56df4d77baaf3b7fc708ceca6dd7788e0104cd9a0f25aa88b11b57237ef0efdf",
+      "bytes": 252
+    },
+    "templates/apps/mac-control-center/icons/weather-clear-night-symbolic-outline-light.svg": {
+      "sha256": "56df4d77baaf3b7fc708ceca6dd7788e0104cd9a0f25aa88b11b57237ef0efdf",
+      "bytes": 252
+    },
+    "templates/apps/mac-control-center/icons/weather-clear-night-symbolic-outline.svg": {
+      "sha256": "baa6ffc752c0811a400440f2737fea92de5c5536d8848b9b36a684b73f593619",
+      "bytes": 249
+    },
+    "templates/apps/mac-control-center/icons/weather-clear-night-symbolic.svg": {
+      "sha256": "baa6ffc752c0811a400440f2737fea92de5c5536d8848b9b36a684b73f593619",
+      "bytes": 249
+    },
+    "templates/apps/mac-control-center/panel.py.in": {
+      "sha256": "89988a272869e7915c64b777372bd879ab265c6ce71f91c14e7edbb55a2c799d",
+      "bytes": 41298
+    },
+    "templates/apps/mac-spotlight/icons/actions-light.svg": {
+      "sha256": "c2b8826305810f0bba5dd4c775bc21d37d5cf0d4453ddbea6492181d44b6640e",
+      "bytes": 224
+    },
+    "templates/apps/mac-spotlight/icons/actions.svg": {
+      "sha256": "a33aed1b2e5137009008b441e8c89d54c8d57aff0b77e185288d54025b79c06d",
+      "bytes": 224
+    },
+    "templates/apps/mac-spotlight/icons/applications-light.svg": {
+      "sha256": "05f714e683b8b05423c6fe106494c8f0385e309da3a833c8f05e355be405a147",
+      "bytes": 205
+    },
+    "templates/apps/mac-spotlight/icons/applications.svg": {
+      "sha256": "4cbd5b90cdf0730bee16abdce3cb5ef0e293e45530b896afc3e45b36d63052ba",
+      "bytes": 205
+    },
+    "templates/apps/mac-spotlight/spotlight.py.in": {
+      "sha256": "a6bdf6195dc9dcda6f667047695941df4d6ce501b747b0c76df321d5c3908650",
+      "bytes": 16969
+    },
+    "templates/bin/friday.in": {
+      "sha256": "01dc1d57ba66aea37316f8d4ac7f23a795943771661a116e84db87b2c1a67e7b",
+      "bytes": 357
+    },
+    "templates/bin/mac-capture.in": {
+      "sha256": "e38b50280209a7864ec3370a2cef19ff3ee2f638b2c045437ec0371bba8a9c63",
+      "bytes": 72
+    },
+    "templates/bin/mac-control-center.in": {
+      "sha256": "6aa295a7c31e1f3043fc87cbd80641ab7e73e52e58a7b1672e06dcbb3953c7ba",
+      "bytes": 77
+    },
+    "templates/bin/mac-lock.in": {
+      "sha256": "ffee53696a8ee2410b73437be3cde59599e7acd6a922366e2829620629c0d206",
+      "bytes": 1150
+    },
+    "templates/bin/mac-shortcut.in": {
+      "sha256": "a42bcfff14c1df7e4652a45418f6b1478d17ecfdb0de8306b96015432ffe34af",
+      "bytes": 2397
+    },
+    "templates/bin/mac-spotlight.in": {
+      "sha256": "cccfccf97e77ae6506b194042e91ff350a30bd0a19ff616d929eb09b95fe8e52",
+      "bytes": 76
+    },
+    "templates/bin/mac-window.in": {
+      "sha256": "1d98ddeb2cdeaa55ac01f0640f5fa15eb59770cb6a84bbeda5c3617e509bfd50",
+      "bytes": 4488
+    },
+    "templates/lock/LockFace.qml.in": {
+      "sha256": "68f68eddb4f208843d3a0665ee9af42224a9221720f388adcf65bd0e1bf76f6f",
+      "bytes": 8109
+    },
+    "templates/lock/run-lock.in": {
+      "sha256": "0bf3f647106e58d86da6e921178dd6168ae05fd3ae9d1eeaab387995193d4330",
+      "bytes": 665
+    },
+    "templates/lock/set-lock-hint.py.in": {
+      "sha256": "a73501d77ffd26fa6b5597fd2b1e690ce18016de785bda7b9acc91bdd8cbded6",
+      "bytes": 652
+    },
+    "templates/lock/shell.qml.in": {
+      "sha256": "a2833d34bbfcbb2907a77fd4c2d562c1f54a5d0eec1f07439bb6bc9a7b57c4af",
+      "bytes": 2614
+    },
+    "templates/noctalia-plugins/mac-status/battery-0-sharp.svg": {
+      "sha256": "26b3fbb0a92d18d2d6a9fc81b0a56a39f23a0749b69e6b092ec0a34716a3499a",
+      "bytes": 544
+    },
+    "templates/noctalia-plugins/mac-status/battery-0.svg": {
+      "sha256": "cb42e992791dcfd5dc8fa9c939ad47c8747dbf3b89ae4bfba943ac27c410c714",
+      "bytes": 457
+    },
+    "templates/noctalia-plugins/mac-status/battery-1-sharp.svg": {
+      "sha256": "264ce9c847d952f89d071a7399adb722cd8e758a9cc72e418336e4b60a598ed9",
+      "bytes": 544
+    },
+    "templates/noctalia-plugins/mac-status/battery-1.svg": {
+      "sha256": "52ee551db47b01d19f1f5ec41373f071fd2f40244695f03967c25ae4f292d67f",
+      "bytes": 457
+    },
+    "templates/noctalia-plugins/mac-status/battery-10-sharp.svg": {
+      "sha256": "111addb7c6686982fa1bdc7febb9cd58ed2f20464d95584c9a482fadd5380022",
+      "bytes": 547
+    },
+    "templates/noctalia-plugins/mac-status/battery-10.svg": {
+      "sha256": "ab760bbd2bd09b8308208ce893c0b3fbd977802e48bf5bd9176229da310a0444",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-100-sharp.svg": {
+      "sha256": "28ab9e3f1afa0057fa1988b5d05d5fd0fd146802dff9a530d263c6ed16c5440e",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-100.svg": {
+      "sha256": "ed4202222ec4598387092369b3ae55e1e2c79f6567c207a07e75a061b35d5f69",
+      "bytes": 460
+    },
+    "templates/noctalia-plugins/mac-status/battery-11-sharp.svg": {
+      "sha256": "20015cabf44fa022506dd4f2d72e63a69a9759bfe729dbd3bad793ef1630139b",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-11.svg": {
+      "sha256": "5e7c69232b8735c0db8a0e13b70bd866aee8a943a8077a25fb9e83b7dc70c0b2",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-12-sharp.svg": {
+      "sha256": "326606734217aaa1c7a51692143d2bd3f3bc0bf6511ff165849a2d1966dbad63",
+      "bytes": 547
+    },
+    "templates/noctalia-plugins/mac-status/battery-12.svg": {
+      "sha256": "f3e2abca4a11dccdb41c18c8ecb177dcaf8733b323653238c63c69aeedaea237",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-13-sharp.svg": {
+      "sha256": "0f645979caf61547b769ad7ebbbc91a8bfe2cd1974b6ae6bb9f68baf9aa0fd4c",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-13.svg": {
+      "sha256": "1e32d057b0efe50d7bbefefc28389f8481f83455a42d4e6e03be80161c6037f7",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-14-sharp.svg": {
+      "sha256": "ee6f434559fea88c75ffa61f8e321464cc897d6761c027546a6e9916759f7032",
+      "bytes": 547
+    },
+    "templates/noctalia-plugins/mac-status/battery-14.svg": {
+      "sha256": "c4b630454bcbb58464f52f34c2cb62c442eb39da9c6b5b50d38940cd1d1748f7",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-15-sharp.svg": {
+      "sha256": "ef4f751048a0ed375c237b7f845a8c582e7d3695cc224ef48f5f663d7e1400bd",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-15.svg": {
+      "sha256": "2c791b403b13552d7aefb4993f461e7640d0bc967bcb719e3401d188c04452ef",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-16-sharp.svg": {
+      "sha256": "fc26f8218cfea33a81dd8dff0d63391924cb56e32d07bf8d0de220febc130d4c",
+      "bytes": 547
+    },
+    "templates/noctalia-plugins/mac-status/battery-16.svg": {
+      "sha256": "6dbeb20c28eece72c58b22fc6ba1ec0bfb7e62dc691e086684f9716492f76637",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-17-sharp.svg": {
+      "sha256": "628148b98a9a37d743aecf0b61dc09a69b1fcdd33c54b45237a94013aeb314cd",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-17.svg": {
+      "sha256": "b7fa3080dbeec87c22b72655be09c5635f17f2a3af856e52e8a7548e3aebb5e9",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-18-sharp.svg": {
+      "sha256": "9412fdf314d356cb17d360a99816505dfa99ea1e68702fc7cef68ec1a924796c",
+      "bytes": 547
+    },
+    "templates/noctalia-plugins/mac-status/battery-18.svg": {
+      "sha256": "7245f8c531a87296a137a0ae881647d560c7e0c80b10e6f9ccef5f8eeb240391",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-19-sharp.svg": {
+      "sha256": "dc3100373316f2960735e7a02ff3c5b3b4742359ed65cea02fb3322abb8b8e35",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-19.svg": {
+      "sha256": "5d2671332d4365a651d2da5c0462832c59d8fc19e6afd2acf797e7b054f43a68",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-2-sharp.svg": {
+      "sha256": "041901faac8f78b67f28bc240d760959a50ac99094fa46a29081aa7ab2d40eb5",
+      "bytes": 544
+    },
+    "templates/noctalia-plugins/mac-status/battery-2.svg": {
+      "sha256": "10e02f333fcdf93426d5605abe33a216e36007bbcccfee5f478066b7fc1de97b",
+      "bytes": 457
+    },
+    "templates/noctalia-plugins/mac-status/battery-20-sharp.svg": {
+      "sha256": "1ce2b891f05b1d2105a43774cda454828e0556417629fb49639d9e29363baf90",
+      "bytes": 547
+    },
+    "templates/noctalia-plugins/mac-status/battery-20.svg": {
+      "sha256": "9cc5ebd6ecc15e2e6cad2f6b322318497fdcb73f12eee5142b2204fee574e4f2",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-21-sharp.svg": {
+      "sha256": "bc79ef4f55bcb80f8cd06ff4c639653397646e5f7c7acca4f61e96456893d184",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-21.svg": {
+      "sha256": "16e7d532bd4592575d63e9e47b8c2c6c758606065368a4b86d662e5d91927931",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-22-sharp.svg": {
+      "sha256": "7e44990b22eab92b60bb8d7d057f31afd75b7d84bd0ecd5a26c85fbc3e35e218",
+      "bytes": 547
+    },
+    "templates/noctalia-plugins/mac-status/battery-22.svg": {
+      "sha256": "af83f839dd2fe09424d7899da3b364aa2c1e825e564b91a2f31bc844ef9c17e9",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-23-sharp.svg": {
+      "sha256": "aed8f7a47a3e066388e91d0b8861cfdc401ec0c712c749f3877bd393b37c3a60",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-23.svg": {
+      "sha256": "f3b91ba219c1dff2e4653ddf9165ff81ef0aa9d934608a76a8de81cf498af7b3",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-24-sharp.svg": {
+      "sha256": "a88c01da416dd545173bc217299072a359807113d33f2baf9d12f71c5d9dfaf6",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-24.svg": {
+      "sha256": "740cc931c370db6afa17e7df3514d61af34370c8df0e3987e4674ca291e6766f",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-25-sharp.svg": {
+      "sha256": "9bce3f35317a94a0572591bb499a0e0bf9b29cdba09b10bbe63120443f4bff46",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-25.svg": {
+      "sha256": "2c016c0c02fe691f0a12b0f6ce5f8fcfdec8fe55dcc577257d8dfa10cc4b18db",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-26-sharp.svg": {
+      "sha256": "daae37023205d1bcc9328078e169bb1340ee95a0785028bab7258618b49600b0",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-26.svg": {
+      "sha256": "2b74440b79aa249ba929a1bd61b38de6ae20d5ad7bfc1f34748691e7933700af",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-27-sharp.svg": {
+      "sha256": "5bacb9377fcac41bf4a264973b9b6b3bf1d0d0afd6b89885c5935f20e676319f",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-27.svg": {
+      "sha256": "dae09050bb99822ef2985ce15cad70e715df693d1c9059f07982681aa004c015",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-28-sharp.svg": {
+      "sha256": "b6c37c879605ef3f59897a1a7bfadd24b114587fe0b123b13b8354412421dad9",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-28.svg": {
+      "sha256": "b24535f0276a10c5471474f6297b30193f5937cfbd69cb094ed2b18aff0fe6c0",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-29-sharp.svg": {
+      "sha256": "a86e5d675284ae4ddf681ad1decb73ffd45378a397247eb9820a151e3b39b80b",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-29.svg": {
+      "sha256": "0650b8f27ac9abc04d5a08966861157856815f4770fe0d4bfc2eb73f64f39658",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-3-sharp.svg": {
+      "sha256": "f800f4526ed95ade8f6df4e7a5c74063bc48b64edb7a08f42c343daa297301b6",
+      "bytes": 544
+    },
+    "templates/noctalia-plugins/mac-status/battery-3.svg": {
+      "sha256": "a46299e5e21dd5a00ae346a5e591c773131999660fe0176904fa821d83f726cc",
+      "bytes": 457
+    },
+    "templates/noctalia-plugins/mac-status/battery-30-sharp.svg": {
+      "sha256": "a1547a3f39cac5bc5b7a88c5a03f9808850eaf6e14f725458f61e180dd913e12",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-30.svg": {
+      "sha256": "7e2005cdc64c58867f5a087c12c41985d9b0cd99e0d3c793a9254f31dc3aeb16",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-31-sharp.svg": {
+      "sha256": "1a4ecd0d0b05a0fc0a3f266f7ba27ee25328105edad7bc6f55018b65ff3e8d35",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-31.svg": {
+      "sha256": "b5b279425fa0102f89c63ac58b696788c4bf6ed4ca392d106991362e3d2f74e2",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-32-sharp.svg": {
+      "sha256": "255b14ae5f04efe117025dc75db0e7b8673e8fe121c2c08575507e8f3ebee48b",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-32.svg": {
+      "sha256": "1fbf2dc885ef0fbaa9af2945d71702ae0a0ca2078df425bffa0e6a179251f04d",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-33-sharp.svg": {
+      "sha256": "afa53a57da72f2df6729ab2c147a1dea5217bae61ac29af5122924efee5968f3",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-33.svg": {
+      "sha256": "dd40b2e947ce5c7ea2368efa2530383cb6895f55fdb01d7c630dda65918c50db",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-34-sharp.svg": {
+      "sha256": "0b8eda7b98a8963e82353ba88f6b7e7aeecd60436159c15be3525bb1fff3bfd9",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-34.svg": {
+      "sha256": "a69188a4164cf1574c0df7d437a5d10cbf4bbddda6b3e9a29ee70749abb10f05",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-35-sharp.svg": {
+      "sha256": "a98cb3d5014b8c3debab4e0959089451f6a400c2dd23846c49a81f7672b5b6a6",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-35.svg": {
+      "sha256": "3bae2908a6d32c205d60643cc89a15a7e211219ba3b9b23ccdacc5ec78e590d1",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-36-sharp.svg": {
+      "sha256": "558a25310ad77e4777ada2abcce72ff3c59df95f0a044e3731c4af40b1d4892a",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-36.svg": {
+      "sha256": "ea2bf9d457ab786ab4e37132a03d71044e1cb5d486eeb6184eb6ce8c86d25ec2",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-37-sharp.svg": {
+      "sha256": "cc308e89bee24a4d6e22ec9725660d984c201af58dfe608b2d60224a1ddc4909",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-37.svg": {
+      "sha256": "6b2129a40182d7847548b8f78280a9bdb224e47eaf3e493f0f66d1e00c8bbb78",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-38-sharp.svg": {
+      "sha256": "807b399ec9619abe73489b5f18682a7b549df0fc2d937a0992f0e63937bbf68e",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-38.svg": {
+      "sha256": "b4721b17318b83446829ed703ee692f1212256dc88ec47d201f6c2b87aff84a9",
+      "bytes": 458
+    },
+    "templates/noctalia-plugins/mac-status/battery-39-sharp.svg": {
+      "sha256": "c25c12a3aefab0d6ef30962f4dd5f53ae4b7e591ad097606bff1509c85ee1f60",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-39.svg": {
+      "sha256": "ce2b2f42d16e3a2519a8d129e17e75b823acc8bd59f9abbe34683a31add5ec64",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-4-sharp.svg": {
+      "sha256": "d8c3778d47b93a3aff2b1195e3cf70c846e16c8878dee14c2922bd47c932d40f",
+      "bytes": 544
+    },
+    "templates/noctalia-plugins/mac-status/battery-4.svg": {
+      "sha256": "e9afafc285a6234492ab28a7da62ea824a229d356f7aa85382a7ae761a21df91",
+      "bytes": 457
+    },
+    "templates/noctalia-plugins/mac-status/battery-40-sharp.svg": {
+      "sha256": "fc0237ef79b4158f62857eba00d360b9e38a81d7c87ed05da7f7a07554d7493b",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-40.svg": {
+      "sha256": "a5b4feb03625ebf6989f521f6e0d9716352cc755d9e5a09fa9a5bee1a1fd6b08",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-41-sharp.svg": {
+      "sha256": "1154fffc3107e23298494725d803b736b491affd6d7249d3100ff6bc0aed2998",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-41.svg": {
+      "sha256": "976005e344b629eee6f707c25ad62348110ee776f9099d2314b5d38e31a5c32d",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-42-sharp.svg": {
+      "sha256": "151bd2042ad80781c3e0c0032070a35815337eb115b3ed0573fb98e6ea28b1e9",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-42.svg": {
+      "sha256": "58dc47dd59e354dfca6f83e8f29193fb7aee6133b38d456f77d26cd2a74a1fa3",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-43-sharp.svg": {
+      "sha256": "2247841ba9f2f727662a1130cf4faa0ae3ad0363b3481c8329303d0a7e1f82bd",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-43.svg": {
+      "sha256": "11580de8d73bac171d8023f2034a838740138399dee0b65c7fffaafb344c1a1e",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-44-sharp.svg": {
+      "sha256": "269bcbbf623d4fddaee694b9b3a267918073053a27c098b5e26253e2e408e600",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-44.svg": {
+      "sha256": "f847b173931ed88df016634afcf293b724f01314273e5dab861d772042c25f81",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-45-sharp.svg": {
+      "sha256": "0bc2e8454adcf415d2104cfbd1e992796065c8b5fd762138ecfe989c1f114d46",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-45.svg": {
+      "sha256": "d57cbd6138596626961d3349f8f18be84fcb13aa653f42bcc5f8a18b7b7a8424",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-46-sharp.svg": {
+      "sha256": "d56d6e5b45ff801bf28aad7a350601634fb05284aa49f749980e6ea21a5e21b0",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-46.svg": {
+      "sha256": "c3e654eeaf42b3071c812bcaac2ab0f2cc8b56e1692ced35174eb100cb4a46e9",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-47-sharp.svg": {
+      "sha256": "3957916bc1b657d2bd41d74b210bd0a7f0ba2eb39ae854a0ac2e6d11032f0a79",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-47.svg": {
+      "sha256": "bfd2bf7903c588e9f7c8fb7a4c978d17f5228f30586351dce51b18f19a20c1c7",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-48-sharp.svg": {
+      "sha256": "a8ca7bd3ec335c6694b334460142332f6562df438d3b9dabd253d69f8671d677",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-48.svg": {
+      "sha256": "d33cdec2631e354bf535f4c335c483004ae0ea12bb0460468cfe2fcde6789cf5",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-49-sharp.svg": {
+      "sha256": "95659d348b6226184cc68666823762fa8566c7acb2dbd0b7054acb5cce63ee0d",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-49.svg": {
+      "sha256": "fb367596b51e21c8bda06ddf2b82e3d310eb9f477dcbb2a6b8289a81daea9ecd",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-5-sharp.svg": {
+      "sha256": "4a6b6b8abf82cc043db59e861b35e0024ad2b8bad697fb690f299f688b823fbd",
+      "bytes": 547
+    },
+    "templates/noctalia-plugins/mac-status/battery-5.svg": {
+      "sha256": "58f7fe153b4a5043845b90238ce274812e919c123333be5a3a9b90e802d4d559",
+      "bytes": 457
+    },
+    "templates/noctalia-plugins/mac-status/battery-50-sharp.svg": {
+      "sha256": "7d18ea4e7ea6db457a71ce87a1bf6f3fdcbc2e0b88e0bbed01376cc3941262cb",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-50.svg": {
+      "sha256": "54469dc0bf6dd530cb4d528b0b281d6de1eb9a1541f0aa9027c3f74e24b30eff",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-51-sharp.svg": {
+      "sha256": "5bcff1e946d886e30f45df8d14be481308505d4bada0abbf1426811905bbbb9b",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-51.svg": {
+      "sha256": "8cde5435eff2d1de7f7e92537ff8700310b83f826f75a0fa1af48b9c653b4752",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-52-sharp.svg": {
+      "sha256": "01626352347dd1bc675b80dfd49a1cd275b8543a67fadf10de3d10f63b76e432",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-52.svg": {
+      "sha256": "01e866d0ac932f959642eada217c566103ac72aa8f25abeb6ed5a5ea7aac763f",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-53-sharp.svg": {
+      "sha256": "4ec2f5191fa7ee686c06d2b5d2544719d33d999a2593523afdb907a50e128ce2",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-53.svg": {
+      "sha256": "2d301e1c32840a8c2183441cc8b98609bc6bca6e3feee84e82656b3648a0727d",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-54-sharp.svg": {
+      "sha256": "5cf59b8c870a4f9f2de676682ee45e7a6fd912a9ef0c039c623f6f75c2d97312",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-54.svg": {
+      "sha256": "319c425465d055fbbd4e6a40ed0b258d92bbc96b53b5a2b4b1afa881e4b6a5aa",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-55-sharp.svg": {
+      "sha256": "3a775949d922aafccc7d5cf75203a6269d86c5c4d154e832a220587599651bd6",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-55.svg": {
+      "sha256": "37a1e3b5612e283e6b72ccc441a93265e3a70030ada0dd861ccf2c5d168579da",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-56-sharp.svg": {
+      "sha256": "ba53db60157929b0a78d80aad0aa04ae574609fc6a0fea5359c008777ea893e8",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-56.svg": {
+      "sha256": "820d76956c5ae746ed345ce76b515b9258ee037e44cf1b5c511043e4f81bdf3d",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-57-sharp.svg": {
+      "sha256": "760d9b786510a3823768bd6e4ad4a571bdce2462841b63494b3e8ea6dca3a259",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-57.svg": {
+      "sha256": "d2a08be4dbfbd00d1810a6f0631b89e0026e003dccb0a3286fb8a8d0884edf0b",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-58-sharp.svg": {
+      "sha256": "1cfc0ff3a6a869fcf9557aa4fd581af9575fe9820b5859d2efa08d5e6f5ef5e9",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-58.svg": {
+      "sha256": "f04e62a590d603ad914030460438f9b50d31851273caa4151e2fa3b0f6bf2918",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-59-sharp.svg": {
+      "sha256": "0932317cb063ce4a969a3e9154e485199d40624b649ea5448d6a7835ed3939e6",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-59.svg": {
+      "sha256": "b12fd81f933170adb593e7be6715a8782af6f2af787f5a4f8f5d3d9c67b74125",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-6-sharp.svg": {
+      "sha256": "c16ec0abe875057bd91bac7bfb71bc40ce2410f8336a74046361dcdf4e2f94df",
+      "bytes": 546
+    },
+    "templates/noctalia-plugins/mac-status/battery-6.svg": {
+      "sha256": "a905480b1da61e3b0bccdce5a45db5eb2b82c16f4b64d0565de815438f39ae17",
+      "bytes": 457
+    },
+    "templates/noctalia-plugins/mac-status/battery-60-sharp.svg": {
+      "sha256": "73b5ddd1d9bdb3c3c08c64f2b588cf775eac1bdf3214aea08cad8be7eca4b305",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-60.svg": {
+      "sha256": "4e20765779cb4b4b094eca82867bc18bac06b04401f81bcda832b9d98d6ec559",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-61-sharp.svg": {
+      "sha256": "bd5dfd5b0d87f3fd362406648260f36f5f324fd55877734bb67e197c90f02ab0",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-61.svg": {
+      "sha256": "fcce458fd6d7b5dea4135edf3bfe3629f2c24401c240b7647813dbadd90cf55c",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-62-sharp.svg": {
+      "sha256": "11ad206a96293f7b8000638e2f80dab1de8f66d8707088b6588613f1cf0f6a20",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-62.svg": {
+      "sha256": "9ca3a1ce9996dbf6f20387878c76f6a95caee59316ba57a9be7728262afc29a1",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-63-sharp.svg": {
+      "sha256": "9736d16ef0d7df7234b138d782e248638948666f983ce3894b880ab044cc6206",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-63.svg": {
+      "sha256": "e377b000c37438ab59341942f86d9f00120152ee3de547809f9c54b710e992b5",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-64-sharp.svg": {
+      "sha256": "bfd3f631b0cf91130e1d564b6c9cdc2632b9e8946a55a25e6cb86b34b3ea89d2",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-64.svg": {
+      "sha256": "20d6a42fdad66f0624903a2e6ab5311fe8fd8a7a2d05e27c5666bd7e289fbc84",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-65-sharp.svg": {
+      "sha256": "5c06b7a0c1947ba5a8414e1a988fa2d9e4a3de23b82de9bba805581fef5574e6",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-65.svg": {
+      "sha256": "1cc34b71711309b55044bf4398fa1c3f70a76f2cc8582f82af683e2351d2b08c",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-66-sharp.svg": {
+      "sha256": "7bc108d61fc56d0b1a566c4b086d6814912d47faae356991fc7d16a33fcac19e",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-66.svg": {
+      "sha256": "a846176f908140cd683a8197bc93a01e969405775c53e4409ccbc0e34523bf97",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-67-sharp.svg": {
+      "sha256": "67af3ff8eb849cf0066c4fad4b3a852c70ebbe4ae4ba681cf982157ef8035822",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-67.svg": {
+      "sha256": "fc96ba6f905d1475b66e9ba8005f6b95047b8aaa95baeeb11e7576f1a413c918",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-68-sharp.svg": {
+      "sha256": "ee00c7cb0478e63250aac1c40838a625f34f3b52657f516361aad94f1a6708d8",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-68.svg": {
+      "sha256": "9e47b8708b1e1fa0f60f98f1176d583d4616e1b8f49bf4c388f43c5302e70d69",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-69-sharp.svg": {
+      "sha256": "eceee757135a415605c562aabe02bc649d681be411af899dfac5f866fc76bde3",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-69.svg": {
+      "sha256": "1f98aee61196c5a28e8219f1d2c93966e3426435fe05c55f43f9c7bf9d135d0f",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-7-sharp.svg": {
+      "sha256": "e7c3b62e63a763b29e04b1b6dc2f9f33e21822ebf0fdc2d597846c053fea1c23",
+      "bytes": 547
+    },
+    "templates/noctalia-plugins/mac-status/battery-7.svg": {
+      "sha256": "676caca9e4db6daee816545d77d2451f7d9cb70c3d078b1f27d896e003739f59",
+      "bytes": 457
+    },
+    "templates/noctalia-plugins/mac-status/battery-70-sharp.svg": {
+      "sha256": "b50d86e543005ebee3c2fbe930c4160d2dbf9a3097ce4cf6db71f276c2272baa",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-70.svg": {
+      "sha256": "cf2ac29818a075d9b860437b475041c30e21af4b87ae4a79ca37d1f03a8a61d1",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-71-sharp.svg": {
+      "sha256": "d6f877c3bd3ff23f406ecd8a905cf3f6b2c82fb025e9b1e6149dac48c6dd69dc",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-71.svg": {
+      "sha256": "89fb17e7febc70d31f9a1893f0ca0333cf38e787c504cb10a82843554057a8d2",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-72-sharp.svg": {
+      "sha256": "98c3a84928f5e071cbb995eb817f30df3f0301ea0b190d907f6396fdd35a0aa6",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-72.svg": {
+      "sha256": "2e4ef1c0c7f0ca3b74c352b21d6876bf1e6fac9f508549735ef6fbc7d70e74bc",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-73-sharp.svg": {
+      "sha256": "ef75da1f9d45888b9d9b7628cb146b57db72d84acc6d865d1e61ccb802ae3e7c",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-73.svg": {
+      "sha256": "b06105ebfcadb18ec30bbadea13f4c56df9f22765d071b5f8e4f6d67949f7d39",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-74-sharp.svg": {
+      "sha256": "0645b37c917d75795bac310b348c21a7d914f7202e9fb468cec5146b79d66fa8",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-74.svg": {
+      "sha256": "979cc8b94c98610a0e9ba62bd32fa72ea76fd3b35f6727ac93030bee74c1484e",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-75-sharp.svg": {
+      "sha256": "046fd1c22fff1c5e2ee051a63a317be48683d2ebc6e229eb617ad427aa2835a2",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-75.svg": {
+      "sha256": "9111868d2e7a564162ae55cd7c5f85aca891b428a766bfc40b72baff191dae60",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-76-sharp.svg": {
+      "sha256": "3b2c32bfe3f9bf3d4debec93d8488f040f78619d6f4b99496a875439ad1af016",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-76.svg": {
+      "sha256": "c127f3e8ab9de22833454411bec9fbeaed52d2b0a2864ef1337af1e7a702f0e8",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-77-sharp.svg": {
+      "sha256": "474b38aac77ec41a30473b04a089e3c9e89f1c5abbe30870e78b00248f1dabbc",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-77.svg": {
+      "sha256": "7440781a9bfa04abaf84cfc0995eead734e44157924fd4913a78262bd0cc134a",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-78-sharp.svg": {
+      "sha256": "7a3353cad55cf78f453418634e109fe2370ba9957b37cec1b132a96be7bbf8b4",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-78.svg": {
+      "sha256": "06b55e9f1ec404844a3b6f6ad85301d594377859ae7627845979683846fdc98b",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-79-sharp.svg": {
+      "sha256": "e9b119f94b37e0e37b2cc4fb3da462b50f519df54c6360d501af20d46bbcb058",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-79.svg": {
+      "sha256": "65d260e30220b2074af85e82dc5056e70e2924727095452dceae2bb6b7a43081",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-8-sharp.svg": {
+      "sha256": "6009061d8d5fbf19887f2280f24229373bf04bfb3b0e37dc70c2587c8676dde5",
+      "bytes": 546
+    },
+    "templates/noctalia-plugins/mac-status/battery-8.svg": {
+      "sha256": "c233e564d5b66e05c635349f265d91150e235a7bb89f070918e693a22a2c9053",
+      "bytes": 457
+    },
+    "templates/noctalia-plugins/mac-status/battery-80-sharp.svg": {
+      "sha256": "1a21bf9922dedb19bbc6d37d6ede2233f699c04ad3c6dc57b75f5946ceb9962a",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-80.svg": {
+      "sha256": "61be8fb4b5e9a497926069c28bd147e7fbd27a7594cde81002fcbce78924f256",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-81-sharp.svg": {
+      "sha256": "099dbfad5b0eeff56e3452aa1a1ddb15fd6de59435174ac4d6e9b8a95acee255",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-81.svg": {
+      "sha256": "6a1712d14a59aa6b20e6f99d8439d1e8f353e7eb574b1c0f818bf58db7eb343e",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-82-sharp.svg": {
+      "sha256": "48333685a11d7d221bf1c4fb2ea402ec92bdad0e32068796bc0a647e02378121",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-82.svg": {
+      "sha256": "1a14d548fab031a0c9dc87fd807c7a8ae850479d5e3588060822940cc22c7261",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-83-sharp.svg": {
+      "sha256": "a376a1c672f21c7cedfdbec360128967480f5ac18f0c1a5209a2df7150fbad13",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-83.svg": {
+      "sha256": "b4a042e8b802ac2a1f3340025b07059484248314aaffcbe54063103200741bfa",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-84-sharp.svg": {
+      "sha256": "0c1b4b517682891bb9e9800b525c6fa1a50496d4b523a88cb6f614c4d84932fc",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-84.svg": {
+      "sha256": "bba5ff7eadd73e3cbf3ca09556cba78c3fdf10ca69ba6acc8456d97d28b75bf5",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-85-sharp.svg": {
+      "sha256": "cc1c0267753da3e02922bc21f368f2dbbf09949c54b8bc940e3c5dda5e038b94",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-85.svg": {
+      "sha256": "0d90d22e320a3ce0dc59278d8acceb8e7955c47abcc837f24718fbf38b9a7107",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-86-sharp.svg": {
+      "sha256": "7d9eb959b4e82f261615b56611c3dbf79458e3f9f63aa84800daf4713508bddd",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-86.svg": {
+      "sha256": "4dac31d89885db8d809914ae3cb4b29e8328fe50824dd76039a5b9caade0e53a",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-87-sharp.svg": {
+      "sha256": "4be760999d3680497803d8ba2575410f684b4f910e9f4715f080d6aab0646783",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-87.svg": {
+      "sha256": "ef863096c5fc8d519df4e5d944f0d28e4d5c7ef973306beb2f3b8b4b75e1907a",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-88-sharp.svg": {
+      "sha256": "4971e658f0911682bb3926caf9ad445b96f3949fbdff4ed9d79bafbd19f47de7",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-88.svg": {
+      "sha256": "93f5dae9cc458ee9f402687ebe925bd527c2897f5587b5187cb732abf5296f85",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-89-sharp.svg": {
+      "sha256": "2905972f331c6d58a9f64343cb413d715489409b9998960e4c4b15c2d4090ac9",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-89.svg": {
+      "sha256": "c19ac646af1bcbc850a071c238e75b545a6ca4c43c3c8c39326e5f616b7aae88",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-9-sharp.svg": {
+      "sha256": "e81d75f78fae31118461592b9c458264e648d9509afc76d985053c5019c77597",
+      "bytes": 547
+    },
+    "templates/noctalia-plugins/mac-status/battery-9.svg": {
+      "sha256": "c3862f4a0b26dfbc7c939c15573d7060d48d0e776bd3150b1f9299842958977a",
+      "bytes": 457
+    },
+    "templates/noctalia-plugins/mac-status/battery-90-sharp.svg": {
+      "sha256": "ea382f196ceb2ad48192bcd623304b1ec184d6cd7470d8dbd685338fcee8c5ec",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-90.svg": {
+      "sha256": "3193e0f750ba9318839c5a3df20842de8db76895fdb81b1ce1e8fc0deab814e2",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-91-sharp.svg": {
+      "sha256": "a01e78789a2d4e5504edfc3c42da58b02a52c5c40fdcf7f40f9d4cfc7a957a89",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-91.svg": {
+      "sha256": "bcdb920402667d1f090abe227c44e4b01ebcb4800766cc77071f468f115c73c6",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-92-sharp.svg": {
+      "sha256": "bbc23a408d771c8130597e3a53eb4490cb074c0c096586e3217464baa88bc690",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-92.svg": {
+      "sha256": "1bbc8ae45f690f74740c84d97b6da344befd7ea01c6467fd4f37fdd68560016f",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-93-sharp.svg": {
+      "sha256": "541011f3ca4fc8294f33ba525701f0397af33b72b1c8268159a12b35d8627f6d",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-93.svg": {
+      "sha256": "6b47cadd7f06fa82e377fe3e9ede0ec14b89b4a97fe6663ef8ce4dfa52313d3f",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-94-sharp.svg": {
+      "sha256": "f71e3829c464594f5ae1cc2f4594d547828fac1183a1dc10e9b012cea308a65f",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-94.svg": {
+      "sha256": "8932b3bf5a738222af57246c9222824729f05fcc4f5d9e0ad1ee1eeea4cd3006",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-95-sharp.svg": {
+      "sha256": "9baaf3d3a3bbd594c467f4d009daa31c445afaaccd0f602b365f5fd35c30b066",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-95.svg": {
+      "sha256": "9f1e6101590824a2bc501eca306f46e717c9b77f1d691c5df45d733b0ad4e261",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-96-sharp.svg": {
+      "sha256": "2683f75532289edc6babd62f478be5d4bce5925135a013ce6e0f6afd97a9dd2c",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-96.svg": {
+      "sha256": "ae03d816c2e591fe507268ede271b37ceba83090232de36637a3f2bbefa0dd6f",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-97-sharp.svg": {
+      "sha256": "bd2a7f72e64c78630b1b6c666f4775bab6576dd3f67cfe9154f067c6f8b9c2ab",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-97.svg": {
+      "sha256": "0a9ea58f55827ba313258715b50d5f29effd32056059e1463344334e5575a610",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-98-sharp.svg": {
+      "sha256": "6c211643826e5d7251bfab0b8ff63cc45e44c370164f637744cba423d57d05c5",
+      "bytes": 548
+    },
+    "templates/noctalia-plugins/mac-status/battery-98.svg": {
+      "sha256": "9672f144dd8b38e62a1ff5f8aa56d50be0a27c8203d61b9b1020f95572af25fd",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-99-sharp.svg": {
+      "sha256": "0c02f0df278d8bfffdc38d6f61d27f1c9e8ecb45980b7ad23fab8dba8e9b927c",
+      "bytes": 549
+    },
+    "templates/noctalia-plugins/mac-status/battery-99.svg": {
+      "sha256": "357a5bcb8cd1d77903a12572330dce2c908b04a3105e1f12aece33e2f0c7d7e3",
+      "bytes": 459
+    },
+    "templates/noctalia-plugins/mac-status/battery-reader.py.in": {
+      "sha256": "71ef7fa4d291df51eb32534562bea879ad75fb262b3ec1dae67de97511940c53",
+      "bytes": 539
+    },
+    "templates/noctalia-plugins/mac-status/battery.luau.in": {
+      "sha256": "d8fd533c130fe6a83006c1243e4475b9a07193953dde5e04413719bd37743452",
+      "bytes": 475
+    },
+    "templates/noctalia-plugins/mac-status/controls-sharp.svg": {
+      "sha256": "bcdfb69e5a6e2bbec4ba822db0501f7c7265da1ea4871dfd880c50c927adc0b8",
+      "bytes": 377
+    },
+    "templates/noctalia-plugins/mac-status/controls.luau.in": {
+      "sha256": "5c497b54952e6a7e90de6a5d3ccee6bfe96c83bba1d3b2a8e332385710dfe201",
+      "bytes": 251
+    },
+    "templates/noctalia-plugins/mac-status/controls.svg": {
+      "sha256": "2584f1d8485128a0afefa9b46c3f8e5b99422227b3ab7ec1a12be5a418fbc386",
+      "bytes": 391
+    },
+    "templates/noctalia-plugins/mac-status/friday.luau.in": {
+      "sha256": "985dea09631b6fa1954534715164fbf230989f8a263115cd21f9c736d70a07e8",
+      "bytes": 631
+    },
+    "templates/noctalia-plugins/mac-status/media-sharp.svg": {
+      "sha256": "61a8afac6c3966225965ceffd6f3e92d134b9215f448c97bc192515c968d9f02",
+      "bytes": 223
+    },
+    "templates/noctalia-plugins/mac-status/media.luau.in": {
+      "sha256": "7c3613738ebb292a4566b31dfd63cfb802cff8e94f0e408f454ba0ab4e342e84",
+      "bytes": 246
+    },
+    "templates/noctalia-plugins/mac-status/media.svg": {
+      "sha256": "d1e995142878bcac05d95ad7c291eafac280355ad5f45124b0e105ae361804d4",
+      "bytes": 228
+    },
+    "templates/noctalia-plugins/mac-status/plugin.toml.in": {
+      "sha256": "c5b3cce942f544c9fbe133d7e74989bee518f2f79f261d9f2a1360ef8c0414e0",
+      "bytes": 385
+    },
+    "templates/noctalia-plugins/mac-status/wifi-off-sharp.svg": {
+      "sha256": "690cb9e110cb0ef650576b8d69837aa2f91cd556e9e8e937e07bf234434add3d",
+      "bytes": 414
+    },
+    "templates/noctalia-plugins/mac-status/wifi-off.svg": {
+      "sha256": "51e9d846e5cd4925a031bd4511718fdcb719464b909ae8442d9f1378475268bd",
+      "bytes": 360
+    },
+    "templates/noctalia-plugins/mac-status/wifi-reader.py.in": {
+      "sha256": "80a34bd2927974796fa7d479f17cbd01cc30123b50e0224bd32944ed5789127a",
+      "bytes": 439
+    },
+    "templates/noctalia-plugins/mac-status/wifi-sharp.svg": {
+      "sha256": "dc999dd1c7548d2a12965723a3653c897f74fa28d09eeb64e6d8b18d5fb3b73e",
+      "bytes": 333
+    },
+    "templates/noctalia-plugins/mac-status/wifi.luau.in": {
+      "sha256": "73a7d90ab06ef86c10dd6beddff280f212576d71936ad0f7d2c1b61e3ef626b1",
+      "bytes": 304
+    },
+    "templates/noctalia-plugins/mac-status/wifi.svg": {
+      "sha256": "db319d21c4db8f0b05d6db8007698580f2a55965233cd484fd9b85738fb256cc",
+      "bytes": 302
+    },
+    "templates/noctalia-plugins/mac-window-controls/close.luau.in": {
+      "sha256": "98f466e6bdaf8a8c71588faaa35651245561a5d630921781916eb4756f7f3f64",
+      "bytes": 457
+    },
+    "templates/noctalia-plugins/mac-window-controls/close.svg": {
+      "sha256": "2223cf3103915d23d45febcc58f4d13a7a17386fe5773983d5d2d984acc6e5b7",
+      "bytes": 153
+    },
+    "templates/noctalia-plugins/mac-window-controls/controls.luau.in": {
+      "sha256": "1f90d95075fbb4afd418f9f048e0733de917afac0404fd9f12d5d3b7a55ef569",
+      "bytes": 1882
+    },
+    "templates/noctalia-plugins/mac-window-controls/hide.luau.in": {
+      "sha256": "0e63e97f1dbdc3a2922ce1ad0a3699d44e45727e5ef5e00da1b41fe93a21e8f7",
+      "bytes": 453
+    },
+    "templates/noctalia-plugins/mac-window-controls/hide.svg": {
+      "sha256": "713039256a4bee0d9a3e10e671d6ab243825f41d420b8dc305ece657ff5ef67b",
+      "bytes": 153
+    },
+    "templates/noctalia-plugins/mac-window-controls/maximize.luau.in": {
+      "sha256": "2d62821aa6679d0aa78e7dc2b47602190ccf91fafd2630cb3464a8c84726de29",
+      "bytes": 479
+    },
+    "templates/noctalia-plugins/mac-window-controls/maximize.svg": {
+      "sha256": "d4320eb8ffc420bc891ad6bd2c0337eb8c966256502957a19af80bdc296dfa31",
+      "bytes": 153
+    },
+    "templates/noctalia-plugins/mac-window-controls/plugin.toml.in": {
+      "sha256": "f2d1580c3fab84690dd03fff4e84738bd0bac166fb7a918718c179a6bcf816ea",
+      "bytes": 465
+    },
+    "templates/noctalia-plugins/mac-window-controls/restore.luau.in": {
+      "sha256": "96ad34ada52dc1b25a38fed7ca63fba6379872a80bb1fbede859760e32eae4c2",
+      "bytes": 246
+    },
+    "templates/systemd-user/friday-ai.service.in": {
+      "sha256": "740026cc84d164cd369d94cedd008485ef81ac3593ef2f8f6c54e033cffed288",
+      "bytes": 554
+    },
+    "templates/systemd-user/friday-ui.service.in": {
+      "sha256": "069f442ad756258c136c0cff64fcaa5ecb4bf43686a2041f031aaa202d228a2f",
+      "bytes": 232
+    },
+    "templates/systemd-user/friday-wake.service.in": {
+      "sha256": "5449932037f3901df57251077b4f34a92432ddf6ceed0b5b75dcaa1e284de899",
+      "bytes": 364
+    },
+    "templates/systemd-user/niri-mac-lock-events.service.in": {
+      "sha256": "60fbc300e2abc87b5b2d150199132254683e9cbcb1b6ef0834126c59d8df305d",
+      "bytes": 371
+    },
+    "templates/systemd-user/niri-mac-lock.service.in": {
+      "sha256": "7d7cd62b987caefebf3d70cdc283b0c5ce3ea82867a19b607312b0f20148b7a8",
+      "bytes": 325
+    },
+    "templates/systemd-user/niri-mac-window-controls.service.in": {
+      "sha256": "f47942589ccae1566edd5145cfa13814596031f6dd11e40e2908ad9d529913d1",
+      "bytes": 273
+    },
+    "templates/tests/friday/test_audio_actions.py.in": {
+      "sha256": "7db86fa1d4ae1d6661c3c38bbccd50ca2c23e4a93ffd9c62dff4df6a3d05decb",
+      "bytes": 1203
+    },
+    "templates/tests/friday/test_browser_requests.py.in": {
+      "sha256": "6c815374ae3a0f1bf4b7d6d22056c7441fadea7f69ef8cb4f99024330d2de55b",
+      "bytes": 1133
+    },
+    "templates/tests/friday/test_commands.py.in": {
+      "sha256": "03e6de566beecb97e5d7453914861644c2c295ba1f13e3d16726a26dc7ed663e",
+      "bytes": 2405
+    },
+    "templates/tests/friday/test_control_matrix.py.in": {
+      "sha256": "dc8e6f088512686a25f9805e51efa922ecbc7f6ea06a098255c5722a220344d8",
+      "bytes": 2100
+    },
+    "templates/tests/friday/test_conversation.py.in": {
+      "sha256": "7ce10675bca29c9a31d5385a64698c7281f55a51d4fe61b98c7e8a6a13c6a8b2",
+      "bytes": 3320
+    },
+    "templates/tests/friday/test_route_monitor.py.in": {
+      "sha256": "22890e76eb71db8aeba2059a6bd6239ff227c5c887e7832e27a257cb5a3eb27c",
+      "bytes": 529
+    },
+    "tests/test_settings_tools.py": {
+      "sha256": "3bdbea8aa2ecfff184bef4604a4ba44ca66782db6c6d189a0233567fde660241",
+      "bytes": 2871
+    },
+    "tests/test_setup.py": {
+      "sha256": "9ca71ba0db29f82faac4d7f460c19d7669bff49bae7b210eaccb5084bd3fd406",
+      "bytes": 3191
+    },
+    "tools/render_status_icons.py": {
+      "sha256": "cee11b2acbb40f95e6ff2ddbc934f2b226ca268ff3e4accb26a4470241698875",
+      "bytes": 786
+    }
+  }
+}

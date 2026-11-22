@@ -1,47 +1,56 @@
-# One-shot, multi-distro implementation prompt
+# One-prompt implementation contract
 
-Clone this private repository on the target Linux computer, open it in a coding agent with local terminal and user-session control, then paste the prompt below once. The agent must implement all supported work in one run; do not stop after a plan or ask the user to repeat normal setup steps.
+Paste this instruction into a coding agent opened in the cloned repository:
 
----
+> Execute this file end to end. Complete the supported Mac-inspired Linux setup using the source in this repo, inspect my target machine, ask once for my assistant name or no assistant, then implement, verify and document the result. Do not stop after advice, a plan, source staging or a style override.
 
-You are the implementation engineer. Set up the complete requested macOS-inspired desktop on this Linux machine in one coordinated run. Ask exactly one initial preference question: “What would you like to name your assistant?” Offer Friday, a custom name, or no assistant. Save the choice in one editable user setting; do not force Friday. Then implement every supported item in docs/implementation-inventory.md without asking the user to select scope again. If they choose no assistant, do the rest.
+## 1. Read and inspect
 
-## Detect and adapt
+Run `python3 setup.py doctor`, `python3 setup.py check`, then `python3 setup.py extract` as the normal desktop user. Read `.setup-state/source/docs/module-map.md`, `implementation-inventory.md`, `design-refinement.md`, `testing.md` and `safety-and-rollback.md`. The old root `docs/` inventory is a feature specification, never evidence that the target is already configured.
 
-1. Inspect the live distro/version, package manager, init/service manager, desktop/compositor/session, GPU, monitors, audio, network, input, installed apps, RAM and free disk. Read repository docs; history is not proof of the current setup. Redact secrets, identifiers, SSIDs, device names, private files, photos, audio and biometrics from output.
-2. Support Debian/Ubuntu, Fedora, Arch/CachyOS and openSUSE using signed official repositories and native package tools. For NixOS, immutable/Silverblue systems, unsupported distros or missing packages, use a supported declarative/native route or explain the concrete blocker; never force mutable installs. Check current official docs and package availability first.
-3. If Niri/Noctalia are missing, install them as an additional login session when supported. Keep the current desktop, display manager, kernel, bootloader and default session intact, with a reliable way back.
+Inspect OS/version, architecture, actual desktop/session, package availability, active compositor, shell version/schema/API, display scaling, free disk/RAM, input/audio/network support and installed apps. Do not log raw personal identifiers, saved networks, private device names, passwords or audio. Recheck current official upstream documentation; the source is a reference implementation, not proof that every API exists on this target.
 
-## Complete setup in one run
+Ask one preference question: “What would you like to name your assistant? Choose a short single-word name such as Nova/Friday, or no assistant.” Save once with `python3 setup.py configure --assistant-name NAME` or `--no-assistant`, then run `python3 setup.py stage`. Do not silently enable wake listening or web search; those remain off until the user opts in. Internal file/application IDs may retain `friday`; the visible assistant name and local wake phrase must use the selected name. Verify custom-name parsing before enabling.
 
-1. Give one concise plan listing packages/downloads, files/services, system changes, validation and rollback, then continue in the same run. Back up only exact files you will edit with owner-only permissions and a checksum manifest; preserve user edits.
-2. Download/cache needed packages and models when safe. Resolve dependencies first and install signed packages in one transaction per package manager. Apply user config without elevation where possible.
-3. Group genuinely necessary system-level changes into one narrowly scoped privileged transaction and request native OS authentication immediately before it. Never ask for, capture, store, log, paste or reuse the password; never bypass authentication, change sudo policy or extend cached credentials. Some OS/package flows may still show multiple prompts; explain that and do not work around it.
-4. Do not ask for repeated routine clicks. Run safe checks automatically. Pause only for OS authentication, approval of a security-sensitive change, an unavoidable destructive choice, or a hardware action only the user can perform. Never lock/log out, change active network/audio routes, or test PAM/login without safe recovery.
+## 2. Plan one coordinated run
 
-## Requested features
+Produce one concise package/download/file/service plan with estimated optional model sizes, compatibility exceptions and rollback. Continue automatically within the user's requested scope.
 
-Implement every supported item in docs/implementation-inventory.md, reversibly:
+Prefer signed distribution packages. Verify actual repository package names/versions rather than executing a static cross-distro package list. Batch dependency installation into one transaction per package manager. Use native declarative configuration on NixOS/immutable systems. If a new external source or security-sensitive driver is needed, review it and obtain the relevant decision; do not silently add a repository, disable signatures or run `curl | sh`.
 
-- Niri + Noctalia Mac-inspired workflow; translucent ~32px top bar, crisp icons, consistent typography/gaps/date/time, focused app title only when a window is focused.
-- Working truthful Wi-Fi, Bluetooth, audio, battery, brightness and Focus control center; glass panels dismiss on outside click/Escape.
-- Light translucent blurred dock with auto-hide/reveal and resizing; Alt+Space launcher with four categories; remove duplicate launcher control.
-- Working red/yellow/green shell controls for focused app close, hide/restore and maximize/restore. Explain Wayland cannot universally replace every app's native titlebar/global menus.
-- Consistent notifications and shell dialogs where supported.
-- Secure Win+L video lock using compositor session-lock protocol and PAM, first typed key captured, wrong password rejected, correct password and password fallback; fail closed. Keep DP/media local. Inspect any existing experimental Goodix driver/PAM; preserve fallback and do not change driver/PAM without exact diff, recovery path and security approval.
-- Smooth local, appropriately licensed Sonoma-style wallpaper; Nautilus Space preview tap/hold when reliable; supported trackpad gestures; Win+Shift+5 screenshot/recording toolbar using Wayland portal; Android KDE Connect with narrowly scoped local network access.
-- Optional named assistant: compact Siri-inspired glowing bar, Win+Shift+F, optional local wake phrase, English, follow-up without another mic click, auto-submit after speech ends, goodbye/Escape/outside-click/lock/privacy stop. Show mic state in the assistant, not unrelated notifications.
-- Allowlisted assistant actions: open installed apps (WhatsApp/Brave when present), open requested URL in requested browser, actual system volume/brightness, media, time/battery, window/workspace, screenshot, notes, timers and safe search. Offline commands/local AI; optional web search sends query text only. Always show text; speak only to a confirmed, explicitly selected external output, with a clearly licensed female English voice preferred.
-- Measure real microphone latency/accuracy; never claim success from mock tests. If uncertain, ask “Sorry, could you repeat that?”
+Keep the existing desktop/display manager/session as a recovery route. Add Niri as a separate session when missing; do not replace the default session or force a live compositor switch. Detect legacy Noctalia v4 versus native v5 and adapt: v5 TOML/plugin source must not be copied into a v4 configuration. Probe Niri blur/geometry extensions; fall back to supported effects when absent.
 
-## Security and completion
+Package installation/system changes may need native OS authentication. Group reviewed privileged work into one narrow operation where possible; use normal OS policy. Never ask for, capture, store, paste or reuse a password; never change sudoers or suppress authentication. Do not repeatedly ask permission for ordinary reversible work already authorized. Never promise the OS will show exactly one authentication prompt.
 
-- Speech/model output may map only to fixed typed action IDs. Never send it to shell, eval, generated commands or arbitrary URL handlers. Confirm messaging, financial, destructive, shutdown and restart actions; focus existing app windows where possible.
-- Keep wake listening opt-in, local, visible, paused while locked and cancellable. Keep audio in memory; delete temporary clips. Never commit secrets, recordings, photos, fingerprint samples, model weights or backups.
-- Prefer signed packages, documented APIs and user-level services. No opaque curl-pipe-shell scripts, unreviewed AUR packages, broad root installers or privilege grants.
-- Validate syntax, service state, real interactions, privacy, regressions and rollback. Keep existing login/network/audio usable. Update docs/implementation-inventory.md with verified, failed, unsupported and remaining items; commit changes and report evidence, limitations and rollback.
-- Do not claim pixel identity or fake unsupported features. Finish safe authorized work in this run; stop only at a specific required authentication, user hardware action, or security approval.
+## 3. Deploy real modules
 
----
+Use `.setup-state/staged/` and the deployment map as source. Inspect and adapt it; do not substitute screenshots, fake status or placeholder buttons for working behavior.
 
-Paste this entire prompt into the coding agent after opening this repository. Do not stop at advice or planning.
+Before editing explicit user destinations, run `python3 setup.py checkpoint PATH...`. Keep package/service enablement and privileged-file recovery records separately. Install user files with correct modes; validate each module before enabling it. Run `seal CHECKPOINT_ID` once the intended file changes are applied. `restore CHECKPOINT_ID` refuses to erase later user edits; handle conflicts with a diff instead.
+
+Implement all supported inventory items:
+
+- Niri-native input/workspaces/window rules/shortcuts, natural scrolling and supported gestures. Retain the user's existing bindings when possible and resolve conflicts explicitly.
+- Compact 32-logical-pixel bar, consistent readable type/spacing/clock, generated 3× original icons, active-app menus only while an app is focused. Use app-exported menus or reviewed shortcut mappings; unavailable commands must be disabled.
+- Real NetworkManager/BlueZ/PipeWire controls, true connecting/connected/error states, no duplicate operations, battery view and matching native settings entry points. Keep current network/audio routes while testing.
+- Glass Dock with smart hide, restore behavior and persistent size control. No full-screen blur shield. Alt+Space launcher and useful application/file/action/clipboard paths; remove duplicate launcher affordances.
+- Working close/hide-restore/maximize shell controls. Keep the supported Niri approach where a toolkit cannot expose native per-window traffic lights; never promise uniform third-party window decorations.
+- Shared `desktop_design.py` materials/theme/accessibility module for custom panels. Preserve press/disabled/focus states; transient panels coordinate dismissal. Recording remains independent so opening another popup cannot stop it.
+- Neutral notification/OSD/authentication surfaces where supported. Reduce motion/transparency across compositor, shell, GTK and lock rendering. Verify effective settings through Noctalia IPC because saved UI settings override TOML fragments.
+- Screenshot/window/region capture and recording toolbar, clean window framing and consent portal. Test synthetic framing and mocked dispatch before a user-approved real recording.
+- Password-backed session lock using compositor session-lock protocol, native PAM and a recovery route. Test visual preview before lock integration. Preserve first typed character, password fallback, and fail-closed behavior. Use local/user-provided or appropriately licensed media and a generated fallback; never bundle another user's profile image. Fingerprint drivers/PAM are a separate explicit review; no experimental driver is included or automatically enabled.
+- Stock file preview first, narrowly scoped hold-preview only when reliable; Android pairing only with user trust and scoped firewall rules.
+- Optional named assistant: compact continuous glow, shortcut, optional opt-in local wake, English recognition, automatic speech endpoint, follow-up, uncertainty/repeat prompt, goodbye/Escape/outside/lock cancellation, text always and voice only on a verified available external output. No unrelated listening/output-scan notifications.
+- Assistant actions use typed allowlists and installed-app discovery: real system volume/brightness, bounded app/URL launch with duplicate suppression, media, time/battery, windows, capture, safe notes/timers/search. Never pass speech/model text to shell/eval or arbitrary generated commands. Confirm destructive/power/messaging/financial actions. Offline commands remain useful without a local AI model or internet.
+
+Resolve native runtime libraries, VAD/ASR/TTS resources and optional AI from official sources for this architecture. Record source/license/checksum/size in the local report. Never transplant the reference laptop's binaries, ABI-specific libraries or CPU-specific backend. Benchmark latency and memory before enabling background services; smaller devices may use a lower-resource profile.
+
+## 4. Verify and finish
+
+Validate Niri and Noctalia configs, QML visual preview, Python syntax and user services. Run bundled action-disabled assistant tests against rendered source, using mocks for volume/network/app launch. Verify real stateful controls without disconnecting the current session. Visually check light/dark/high-contrast backgrounds, output scale, focus, icons, outside click and Escape. Check empty-desktop title clearing and Dock hide/reveal/restore.
+
+Ask for required physical actions only when ready: mic speech, external headphones, pairing, actual screenshot-recording consent, or lock/authentication. Never equate synthetic ASR or a successful config parse with a physical test. Never lock/log out/suspend or change PAM/driver settings without the agreed recovery route.
+
+Use `.setup-state/RESULTS.md` to record each feature as verified (with evidence), configured but unverified, unsupported (reason/native alternative), or blocked (specific requirement). Record source/API versions, file/checkpoint paths, service enablement and rollback. Keep personal data and runtime artifacts out of Git.
+
+Complete every safe supported module in this run. If a dependency/hardware/session boundary requires user action, finish independent work first and state the exact action needed. Do not say “everything is done” when source was only staged, tests were mocked, or a required feature is still incomplete. Report the actual implemented behavior and remaining platform boundaries clearly.
